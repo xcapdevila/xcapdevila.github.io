@@ -119,35 +119,6 @@ var scrollOffset = -30;
         $('a[data-rel="prettyPhoto"]').prettyPhoto();
     }
 
-    //Contact form setup
-    //function checkContactForm() {
-    //  if ($(".contact-form").length > 0) {
-    //    var formStatus = $(".contact-form").validate();
-    //    //   =====================================================
-    //    //sending contact form
-    //    $(".contact-form").submit(function(e) {
-    //      e.preventDefault();
-    //
-    //      //  triggers contact form validation
-    //      if (formStatus.errorList.length === 0)
-    //      {
-    //        $(".contact-form .submit").fadeOut(function() {
-    //          $('#loading').css('visibility', 'visible');
-    //          $.post('submit.php', $(".contact-form").serialize(),
-    //                  function(data) {
-    //                    $(".contact-form input,.contact-form textarea").not('.submit').val('');
-    //                    $('.message-box').html(data);
-    //                    $('#loading').css('visibility', 'hidden');
-    //                    $(".contact-form").css('display', 'none');
-    //                    //$(".contact-form .submit").removeClass('disabled').css('display', 'block');
-    //                  }
-    //          );
-    //        });
-    //      }
-    //    });
-    //  }
-    //}
-    //FIXME transform to AJAX
     function checkContactForm() {
         if ($(".contact-form").length > 0) {
             var formStatus = $(".contact-form").validate();
@@ -183,14 +154,6 @@ var scrollOffset = -30;
                         url: "https://docs.google.com/forms/d/e/1FAIpQLSeU5yDMpud9_URuqc3MAqCrFYg1ehf9dwHqW1zl9jFJCuCENQ/formResponse",
                         type: "POST",
                         data: serializedData
-                    //}).done(function (response, textStatus, jqXHR) {
-                    //    // Log a message to the console
-                    //    console.log("Contact data successfully sent");
-                    //    $('.message-box').html('Contact data successfully sent.');
-                    //}).fail(function (jqXHR, textStatus, errorThrown) {
-                    //    // Log the error to the console
-                    //    console.error("The following error occurred: " + textStatus, errorThrown);
-                    //    $('.message-box').html('Error sending contact data.');
                     }).always(function () {
                         //Workaround to avoid Google CORS exception
                         $('.message-box').html('<p><label>Message successfully sent!</label><br/>Thanks for your message. Feel free to join me on <a href="https://www.linkedin.com/in/xcapdevila/" target="_blank">Linkedin</a>.<br/></p>');
@@ -199,7 +162,6 @@ var scrollOffset = -30;
                         $(".contact-form input,.contact-form textarea,.contact-form select").not('.submit').val('');
                         $('#loading').css('visibility', 'hidden');
                         $form.fadeIn();
-                        //$(".contact-form").css('display', 'none');
                     });
                 }
             });
