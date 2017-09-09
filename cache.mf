@@ -1,0 +1,11 @@
+CACHE MANIFEST
+
+# Explicitly cached 'master entries'.
+CACHE:
+css/*
+js/*
+images/*
+
+# Resources that require the user to be online.
+NETWORK:
+*
