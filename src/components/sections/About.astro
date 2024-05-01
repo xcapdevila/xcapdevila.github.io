@@ -1,0 +1,19 @@
+---
+import Section from "../Section.astro"
+import { splitByNewline } from "@/utils/utils.ts"
+import { basics } from "@cv"
+
+const { summary } = basics
+---
+
+<Section title="About me">
+  <p>
+    {splitByNewline(summary).map((line: string) => <p class="justify-text">{line}</p>)}
+  </p>
+</Section>
+
+<style>
+  .justify-text {
+    text-align: justify;
+  }
+</style>
