@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout gh-pages branch
         uses: actions/checkout@v4
         with:
           ref: gh-pages
@@ -30,27 +30,29 @@ jobs:
       - name: Run build
         run: pnpm run build
     
-      - name: Save .htaccess and LICENSE.txt
+      - name: Prepare publication files
         run: |
-          cp .htaccess htaccess_backup
-          cp LICENSE.txt LICENSE_backup
+          mkdir to_publish
+          cp -r dist/* to_publish
+          cp LICENSE to_publish
+          cp .htaccess to_publish
 
       - name: Checkout master branch
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           ref: master
           clean: false
 
-      - name: Copy files to master branch
-        run: |
-          cp -r dist/* .
-          cp htaccess_backup .htaccess
-          cp LICENSE_backup LICENSE.txt
+      - name: Copy publication files to master branch
+        run: cp -r to_publish/* .
+      
+      - name: Clean up publication files
+        run: rm -rf to_publish
 
       - name: Commit and push to master branch
         run: |
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'actions@github.com'
-          git add ./*
-          git commit -m '[Automated] Update dist content'
+          git add .
+          git commit -m '[Automated] Publicate content'
           git push origin master
