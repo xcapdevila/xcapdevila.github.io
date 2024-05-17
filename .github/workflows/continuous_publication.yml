@@ -32,5 +32,5 @@ jobs:
           author_name: 'GitHub Actions'
           author_email: 'actions@github.com'
           message: '[Automated] Update dist content'
-          add: 'dist/*'
+          add: 'dist/* LICENSE.txt .htaccess'
           branch: 'master'
