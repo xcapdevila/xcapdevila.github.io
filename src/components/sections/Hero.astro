@@ -1,5 +1,5 @@
 ---
-import { basics } from "@cv"
+import { basics } from "@/cv.json"
 import Section from "@/components/Section.astro"
 import Mail from "@/icons/Mail.astro"
 import Phone from "@/icons/Phone.astro"
@@ -132,6 +132,7 @@ const printInfo = [url, linkedUrl, gitHubUrl].filter(Boolean)
     object-fit: cover;
     width: 128px;
     border-radius: 16px;
+    border: 1px solid #333;
   }
 
   span {

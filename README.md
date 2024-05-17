@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="./resources/logo.png" height="90px" width="auto" /> 
+<img src="./resources/logo.jpg" height="90px" width="auto" /> 
 
 <h2>
-    <em>Résumé</em> minimalista maquetado para web y pdf
+    Minimalist <em>Résumé</em> optimised for web and pdf.
 </h2>
 
 <p>
@@ -40,21 +40,21 @@ CV structure based on <a href="https://jsonresume.org/schema/">jsonresume.org</a
 
 <p></p>
 
-<div align="center">
-
-![Astro Badge](https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=fff&style=flat)
-![GitHub stars](https://img.shields.io/github/stars/xcapdevila/xcapdevila.github.io)
-![GitHub issues](https://img.shields.io/github/issues/xcapdevila/xcapdevila.github.io)
-![GitHub forks](https://img.shields.io/github/forks/xcapdevila/xcapdevila.github.io)
-![GitHub PRs](https://img.shields.io/github/issues-pr/xcapdevila/xcapdevila.github.io)
-
-</div>
-
 <img src="./resources/screenshot.png"></img>
 
 ## 🚀 Start
 
-TBD
+### How to Use This Project
+
+This project is designed to be simple and easy to use. All you need to do is fill the `cv.json` file with your data. 
+
+The `cv.json` file is where you'll input all of your CV information. This includes your name, contact information, skills, work experience, education, and any other relevant details. The file is structured in a way that makes it easy to input your information. 
+
+Once you've filled out the `cv.json` file, the project will automatically generate a CV based on the data you've provided. This makes it easy to keep your CV up to date and ensures that the format is consistent and professional.
+
+To get started, simply clone the project, open the `cv.json` file, and start inputting your information. Once you're done, save the file and the project will take care of the rest.
+
+### Utils
 
 🎨 [Skills Icons](https://icon-sets.iconify.design/foundation/?license=MIT)
 
@@ -77,6 +77,3 @@ Open [**http://localhost:4321**](http://localhost:4321/) in your browser to chec
 ## 🔑 License
 
 [MIT](LICENSE.txt) - Created by [**xcapdevila**](https://xcapdevila.github.io/).
-
-
-
