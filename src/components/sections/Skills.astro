@@ -1,0 +1,144 @@
+---
+import Section from "../Section.astro"
+import Executive from "@/icons/Executive.astro"
+import GitHub_Social from "@/icons/GitHub-Social.astro"
+import Shield from "@/icons/Shield.astro"
+import Target from "@/icons/Target.astro"
+import { skills } from "@/cv.json"
+
+const SKILLS_ICONS: Record<string, any> = {
+  Executive,
+  GitHub_Social,
+  Shield,
+  Target
+}
+---
+
+<Section title="Skills">
+  <ul>
+    {
+      skills.map(({ name, level, score, summary, highlights }) => {
+        let iconName;
+        if (name === "Analysis") {
+          iconName = "Target";
+        } else if (name === "Software") {
+          iconName = "GitHub_Social";
+        } else if (name === "DevSecOps") {
+          iconName = "Shield";
+        } else {
+          iconName = name;
+        }
+        const Icon = SKILLS_ICONS[iconName]
+
+        return (
+          <li>
+              <article>
+                <header>
+                  <h3>
+                    {Icon && <span class="icon"><Icon /></span>} {name}
+                  </h3>
+                  <p>{summary}</p>
+                </header>
+                <footer>
+                  {highlights.map((highlight) => {
+                    return <span>{highlight}</span>
+                  })}
+                </footer>
+              </article>
+            </li>
+        )
+      })
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-inline: -16px;
+  }
+
+  article {
+    border-radius: 8px;
+    border: 1px solid #f2f2f2;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    height: 100%;
+  }
+
+  article header {
+    flex: 1;
+  }
+  
+  article h3 {
+    font-weight: 500;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  article p {
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    margin-bottom: 4px;
+  }
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    font-size: 0.6rem;
+  }
+
+  footer span {
+    border-radius: 6px;
+    background: #eee;
+    color: #444;
+    font-size: 0.6rem;
+    font-weight: 500;
+    padding: 0.2rem 0.6rem;
+  }
+
+  .icon {
+    margin-right: 10px;
+    display: inline-flex;
+    align-items: center;
+  }
+
+
+  @keyframes flicker {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.25;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @media (width <= 700px) {
+    ul {
+      margin-inline: 0px;
+    }
+
+    article {
+      border: none;
+      box-shadow: 0 1px 1px #f2f2f2;
+      padding: 0 0 16px 0;
+    }
+  }
+
+  @media print {
+    footer span {
+      border: 1px solid #000;
+      padding: 0.2rem 0.6rem;
+      margin: 0.1rem;
+    }
+  }
+</style>

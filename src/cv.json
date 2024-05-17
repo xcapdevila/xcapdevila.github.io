@@ -1,0 +1,436 @@
+{
+  "basics": {
+    "name": "Xavier Capdevila Estevez",
+    "label": "Software Architect | Senior Staff Engineer",
+    "image": "https://github.com/xcapdevila.png",
+    "email": "",
+    "phone": "",
+    "url": "https://xcapdevila.github.io/",
+    "summary": "Software Engineer with more than 11 years of experience.\nI am currently Software Architect at Inditex where I design IT solutions using advanced design patterns and new technologies. I'm used to work in on-premise solutions and in Cloud based solutions (Azure, AWS, GCP) as well.\nI have extensive experience in the sectors of digital payments (PCI-DSS), e-commerce, Fintech and telecom.\n\nI am passionate about my work and, although I enjoy all aspects of it, my favourite stage of a project is, after working with the stakeholders and the product unit leader to understand the business objectives, design the IT solution and implement it together with the team. I love learning new management methodologies and new technologies; and I am always evolving through continuous training.\n\nIn addition, I have knowledge and wide experience in Agile and Agile Management methodologies. Speaking of Scrum, I am Product Owner and Scrum Master. I have also led development teams and projects of up to 12 people.\n\nI like to stay in touch with other IT experts. I am open to connect with former colleagues, managers, or just interesting people, so don't hesitate to contact me.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Barcelona",
+      "countryCode": "ES",
+      "region": "Spain"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "xcapdevila",
+        "url": "https://linkedin.com/in/xcapdevila"
+      },
+      {
+        "network": "GitHub",
+        "username": "xcapdevila",
+        "url": "https://github.com/xcapdevila"
+      },
+      {
+        "network": "X",
+        "username": "xcapdevila",
+        "url": "https://x.com/xcapdevila"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Inditex",
+      "position": "Software Architect",
+      "url": "https://inditex.com",
+      "area": "Computer Science",
+      "startDate": "2022-11-01",
+      "endDate": null,
+      "summary": "Crafting IT solutions using advanced design patterns and new technologies (cloud and on-premise).",
+      "highlights": [
+        "Senior Staff Engineer", "Software Architect", "e-Commerce", "Payments"
+      ]
+    },
+    {
+      "company": "Paradigma Digital",
+      "position": "Software Architect",
+      "url": "https://paradigmadigital.com",
+      "area": "Computer Science",
+      "startDate": "2021-09-01",
+      "endDate": "2022-11-01",
+      "summary": "Working for Inditex company, responsible for crafting of IT solutions using advanced design patterns and new technologies (cloud and on-premise).",
+      "highlights": [
+        "Senior Staff Engineer", "Software Architect", "e-Commerce", "Product & Catalog"
+      ]
+    },
+    {
+      "company": "fonYou",
+      "position": "iCarrier Pay Platform Owner",
+      "url": "https://fonyou.com/",
+      "area": "Computer Science",
+      "startDate": "2020-08-01",
+      "endDate": "2021-09-01",
+      "summary": "Design, implementation and evolution of digital payment platforms based on core and distributed components for the most important payment methods (credit cards, wallets, direct debit) and based on AI.\nCredit card related platforms are PCI-DSS compliant.\nTalent management and technical recruitment.\nProduct Owner & Technical Director.",
+      "highlights": [
+        "Techincal Director", "Staff Engineer", "Software Architect", "Prodcut Owner", "Telecom", "Payments", "FinTech", "PCI-DSS", "Google Cloud Platform", "Kubernetes", "AI"
+      ]
+    },
+    {
+      "company": "fonYou",
+      "position": "Product Owner & SCRUM Master",
+      "url": "https://fonyou.com/",
+      "area": "Computer Science",
+      "startDate": "2019-10-01",
+      "endDate": "2020-08-01",
+      "summary": "Drive the company to an agile transformation.\nUse of the SCRUM framework to develop products and lead teams.",
+      "highlights": [
+        "Agile Transformation", "Product Owner", "SCRUM Master"
+      ]
+    },
+    {
+      "company": "fonYou",
+      "position": "Head of Software Development",
+      "url": "https://fonyou.com/",
+      "area": "Computer Science",
+      "startDate": "2018-11-01",
+      "endDate": "2021-09-01",
+      "summary": "Advanced design patterns and new technologies (Cloud based and on-premise).\nCollaboration in R+D+I initiatives.\nDefinition of the Software Development guidelines and standards.\nDesign and implementation Continuous Integration and Continuous Deployment (CI/CD) pipelines.\nDesign of IT solutions for value added services for telecommunication companies worldwide.\nDesign and implementation of the iCarrier platform based on AI and core components.\nDesign and implementation of PCI-DSS payment platforms (core and local).\nTalent management and technical recruitment.",
+      "highlights": [
+        "Head of Software Development", "Staff Engineer", "Software Architect", "Telecom", "Payments", "FinTech", "PCI-DSS", "R+D+I", "Microservices architectures", "Google Cloud Platform", "CI/CD", "Talent Management", "Technical Recruitment"
+      ]
+    },
+    {
+      "company": "fonYou",
+      "position": "Deputy Head of Software Development",
+      "url": "https://fonyou.com/",
+      "area": "Computer Science",
+      "startDate": "2015-10-01",
+      "endDate": "2018-11-01",
+      "summary": "Software Engineer in charge of the design and programming of IT solutions for value added services for telecommunication companies worldwide.\nCollaboration with the Head of Software Development in teams and projects management, assuming his role in his absence.\nMain technologies: Apache Spark, Bash Scripting, BigQuery, Cassandra, Docker, Glassfish, Git, GO, HAProxy, Java8/JEE, JavaSpark, Javascript, JFrog, JWT, Kotlin, Microservices Architecture, MySQL, Redis, SMPP, Spring & Spring Boot, SQL, SVN, TCP, Webservices AXIS/REST/SOAP.\nSpecialist in Java/JEE.",
+      "highlights": [
+        "Deputy Head of Software Development", "Software Engineer", "Telecom", "Cloud", "Google Cloud Platform", "Amazon WebServices", "Docker", "Kubernetes", "JavaSpark", "Spring", "Spring Boot", "Microservices", "Cassandra", "Redis", "MySQL", "BigQuery", "SMPP", "Webservices", "JFrog", "Jenkins", "Git", "HAProxy"
+      ]
+    },
+    {
+      "company": "Trantor System",
+      "position": "Technical Lead. Programmer Analyst. Java/J2EE Developer.",
+      "url": "https://trantorgroup.com/",
+      "area": "Computer Science",
+      "startDate": "2015-04-01",
+      "endDate": "2015-10-01",
+      "summary": "Projects Technical Lead. Involved in international projects.\nAll kind of enterprise applications (desktop, microservices, mobile, web, web services) mainly focused on server side.\nMain frameworks: AngularJS, JPA, Spark, Spring, Velocity, ZK.\nMain patterns: MVVM, MVC, MV*.\nMain environments: AWS, Docker, Tomcat.",
+      "highlights": [
+        "Technical Lead", "Spring", "Spring Boot", "JavaSpark", "MV*", "Amazon WebServices", "Docker"
+      ]
+    },
+    {
+      "company": "Q' Enginyeria",
+      "position": "Programmer Analyst. Java/J2EE Developer.",
+      "url": "https://www.linkedin.com/company/q'-enginyeria/about/",
+      "area": "Computer Science",
+      "startDate": "2013-12-01",
+      "endDate": "2015-10-01",
+      "summary": "Involved in international projects.\nAll kind of enterprise applications (web, desktop, mobile, web services) mainly focused on server side.\nMain frameworks: Spring, JPA, Velocity, ZK.\nMain patterns: MVVM, MVC.\nMain environments: AWS, Tomcat.",
+      "highlights": [
+        "Software Developer", "Spring", "JPA", "Velocity", "ZK", "MVVM", "MVC", "Amazon WebServices", "Tomcat"
+      ]
+    },
+    {
+      "company": "Saclo Systems",
+      "position": "SQL/VBA Developer",
+      "url": "http://www.saclo.cat",
+      "area": "Computer Science",
+      "startDate": "2011-12-01",
+      "endDate": "2012-01-01",
+      "summary": "Specific project. Design and code a shipment management database.\nLanguage Visual Basic for Applications (VBA). Built in Access 2010.",
+      "highlights": [
+        "Software Developer", "VBA", "SQL", "Microsoft Access"
+      ]
+    },
+    {
+      "company": "Solfesa",
+      "position": ".NET Developer",
+      "url": "https://www.solfesa.es/",
+      "area": "Computer Science",
+      "startDate": "2011-05-01",
+      "endDate": "2011-06-01",
+      "summary": "Specific project. Desktop application to manage and load data from a digital sonometer CESVA SC102.\nLanguage .NET. Built in Visual Studio 2010.",
+      "highlights": [
+        "Software Developer", ".NET", "Visual Studio"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "The PowerMBA",
+      "url": "https://thepower.education/",
+      "area": "Business Administration and Management",
+      "type": "Master",
+      "title": "Master in Business Administration and Management (MBA)",
+      "startDate": "2022-02-01",
+      "endDate": "2022-04-29",
+      "summary": "Online MBA with a focus on business management and administration. The program is designed to provide a solid foundation in business management and administration, with a focus on the latest trends and best practices in the field. The program is designed to be flexible and accessible, with a focus on practical skills and real-world applications.\nGrade: Outstanding.",
+      "highlights": [
+        "MBA", "Business Administration", "Business Management"
+      ]
+    },
+    {
+      "institution": "Universitat Oberta de Catalunya (UOC)",
+      "url": "https://www.uoc.edu/",
+      "area": "Computer Science",
+      "title": "Computer Engineering Degree",
+      "type": "Bachelor",
+      "startDate": "2017-02-01",
+      "endDate": "2021-01-31",
+      "summary": "Specialisation on Software Engineering.\nFinal project: Payments Fraud Prevention (Grade A).",
+      "highlights": [
+        "Software Engineering", "Compueter Science", "Payments Fraud Prevention"
+      ]
+    },
+    {
+      "institution": "Institut Oberta de Catalunya (IOC)",
+      "url": "https://ioc.xtec.cat/",
+      "area": "Computer Science",
+      "title": "Senior Technician on Multiplatform Application Development",
+      "type": "Professional Training",
+      "startDate": "2011-09-01",
+      "endDate": "2014-06-01",
+      "summary": "Multiplatform applications development in many languages such as Java, Python, XML, SQL. Android applications development.\nGrade: 8.8.",
+      "highlights": [
+        "Software Development", "Senior Technician", "Multiplatform Application Development", "Backend", "Java", "Python", "XML", "SQL", "Android"
+      ]
+    },
+    {
+      "institution": "Élogos",
+      "url": "",
+      "area": "Computer Science",
+      "title": "Java Programmer Analyst",
+      "type": "Professional Course",
+      "startDate": "2013-11-01",
+      "endDate": "2014-03-01",
+      "summary": "Fundamentals of Java technology and programming (250h).",
+      "highlights": [
+        "Software Development", "Programmer Analyst", "Backend", "Java"
+      ]
+    },
+    {
+      "institution": "Universidad Politécnica de Madrid (UPM)",
+      "url": "",
+      "area": "Computer Science",
+      "title": "HTML5/CSS3/JavaScript Developer",
+      "type": "Professional Course",
+      "startDate": "2013-12-01",
+      "endDate": "2014-02-01",
+      "summary": "Development of HTML5 applications for Firefox OS (40h).",
+      "highlights": [
+        "Software Development", "Frontend", "HTML5", "CSS3", "JavaScript"
+      ]
+    },
+    {
+      "institution": "Universitat Politècnica de València (UPV)",
+      "url": "",
+      "area": "Computer Science",
+      "title": "Android Developer",
+      "type": "Professional Course",
+      "startDate": "2013-04-01",
+      "endDate": "2013-10-01",
+      "summary": "Android: applications development (120h).",
+      "highlights": [
+        "Software Development", "Apps", "Android", "Java"
+      ]
+    },
+    {
+      "institution": "Universitat d'Alacant (UA)",
+      "url": "",
+      "area": "Computer Science",
+      "title": "HTML/CSS/JavaScript Developer",
+      "type": "Professional Course",
+      "startDate": "2013-02-01",
+      "endDate": "2013-05-01",
+      "summary": "Web development basics (36h).",
+      "highlights": [
+        "Software Development", "Frontend", "Web", "HTML", "CSS", "JavaScript"
+      ]
+    },
+    {
+      "institution": "IES La Romànica",
+      "url": "",
+      "area": "Chemesitry",
+      "title": "Senior Technician on Laboratory Analysis and Quality Control",
+      "type": "Professional Training",
+      "startDate": "2013-12-01",
+      "endDate": "2014-02-01",
+      "summary": "Only first course done due to work reasons. Grade: 7.8.",
+      "highlights": [
+        "Chemistry", "Laboratory", "Chemist Analysis", "Quality Control"
+      ]
+    },
+    {
+      "institution": "IES La Romànica",
+      "url": "",
+      "area": "Chemesitry",
+      "title": "Technician on Laboratory",
+      "type": "Professional Training",
+      "startDate": "2002-09-01",
+      "endDate": "2003-06-01",
+      "summary": "Technician on Laboratory. Grade: 8.9.",
+      "highlights": [
+        "Chemistry", "Laboratory"
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "DA610: Advanced Queries and Data Processing",
+      "date": "2023-03-22",
+      "expiration": "",
+      "issuer": "MongoDB University",
+      "url": "https://ti-user-certificates.s3.amazonaws.com/1c4a8604-516c-42c3-83bc-be0246f08c58/3c57c0c2-5dd1-41b0-9dc3-fa832d414b15-xavier-capdevila-estevez-115ba5a4-0f92-47f4-827d-7ae9e07e7921-certificate.pdf",
+      "category": "Databases",
+      "visible": true
+    },
+    {
+      "name": "DF300: Design Skills and Advanced Features",
+      "date": "2023-03-16",
+      "expiration": "",
+      "issuer": "MongoDB University",
+      "url": "https://ti-user-certificates.s3.amazonaws.com/1c4a8604-516c-42c3-83bc-be0246f08c58/3c57c0c2-5dd1-41b0-9dc3-fa832d414b15-xavier-capdevila-estevez-c2c6f77a-9db2-40f5-b837-6e1321379c26-certificate.pdf",
+      "category": "Databases",
+      "visible": true
+    },
+    {
+      "name": "The PowerMBA",
+      "date": "2022-04-29",
+      "expiration": "",
+      "issuer": "the Power",
+      "url": "https://verified.sertifier.com/es/verify/63620289917546/?ref",
+      "category": "Master",
+      "visible": true
+    },
+    {
+      "name": "Confluent Apache Kafka Fundamentals Accreditation",
+      "date": "2021-10-01",
+      "expiration": "",
+      "issuer": "Confluent",
+      "url": "https://www.credential.net/3a086268-2b39-4118-955d-1010e0796d1e",
+      "category": "Messaging",
+      "visible": true
+    },
+    {
+      "name": "Blockchain A-Z: Build a Blockchain",
+      "date": "2021-04-16",
+      "expiration": "",
+      "issuer": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-36ef759c-b270-4898-b80b-acad46f25d01/",
+      "category": "Blockchain",
+      "visible": true
+    },
+    {
+      "name": "Kubernetes Certified Application Developer (CKAD)",
+      "date": "2021-03-06",
+      "expiration": "2024-03-06",
+      "issuer": "Cloud Native Computing Foundation",
+      "url": "https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/27947a56-fb23-4978-a67a-cbb5e819ae0c-xavier-capdevila-estevez-certified-kubernetes-application-developer-ckad-certificate.pdf",
+      "category": "Kubernetes",
+      "visible": true
+    }
+  ],
+  "skills": [
+    {
+      "name": "Executive",
+      "level": "Master",
+      "score": 100,
+      "summary": "Leadership and management wide experience. Agile Management practitioner.\nLeading and managing local and global distributed teams as a daily basis.\nStakeholders and project management.\nRelated tasks: mentoring, coaching, goal setting, resource planing, among others.",
+      "highlights": [
+        "Leadership", "Management"
+      ]
+    },
+    {
+      "name": "Analysis",
+      "level": "Master",
+      "score": 100,
+      "summary": "Big picture vision and business analysis capabilities.\nDesign and coordination of complex IT solutions.\nUse of AI & Cloud technologies to analise and evolve the deployed applications.",
+      "highlights": [
+        "Bic Picture", "Complex IT Solutions", "AI", "Cloud"
+      ]
+    },
+    {
+      "name": "Software",
+      "level": "Master",
+      "score": 100,
+      "summary": "Profound knowledge of Software design patterns, best practices and standards.\nDesign and implementation of complex IT solutions mainly focused on the backend side even being capable of guiding the frontend part as well.\nEnthusiast and passionate about microservices and cloud architectures.\nProficiency in Java and Spring.",
+      "highlights": [
+        "Software Design Patterns", "Best Practices", "High Quality Standards", "Microservices", "Java", "Spring"
+      ]
+    },
+    {
+      "name": "DevSecOps",
+      "level": "Master",
+      "score": 100,
+      "summary": "Used to work hand by hand with systems department to coordinate the deployments and build CI/CD processes. Also used to work with Docker and Kubernetes.\nExperience with Gradle, Grafana, JFrog, Jenkins, Maven, Nagios and Puppet.\nPlatform monitoring with ELK stack (Elasticsearch, Logstash, Kibana) and other tools such as OpsCenter for Cassandra, and custom scripts and reports.\nSpecialist in Google Cloud Platform.",
+      "highlights": [
+        "CI/CD", "Docker", "Kubernetes", "Grafana", "JFrog", "Jenkins", "Maven", "ELK", "Google Cloud Platform"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "name",
+      "isActive": true,
+      "description": "description",
+      "highlights": [
+        "highlight"
+      ],
+      "url": "https://url.com",
+      "github": ""
+    },
+    {
+      "name": "name",
+      "isActive": true,
+      "description": "description",
+      "highlights": [
+        "highlight"
+      ],
+      "url": "https://url.com",
+      "github": ""
+    }
+  ],
+  "languages": [
+    {
+      "language": "Catalan",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Music",
+      "keywords": [
+        "Electronic",
+        "Rock",
+        "Pop",
+        "Punk",
+        "Heavy Metal"
+      ]
+    },
+    {
+      "name": "Travel",
+      "keywords": [
+        "Adventure",
+        "Van Life",
+        "Resorts"
+      ]
+    },
+    {
+      "name": "Sports",
+      "keywords": [
+        "Trail Running",
+        "Cycling",
+        "Triathlon",
+        "Hiking",
+        "Skiing"
+      ]
+    }
+  ]
+}
