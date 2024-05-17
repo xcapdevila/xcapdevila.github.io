@@ -53,7 +53,7 @@ const profilesInfo = profiles.map(({ network, url }) => {
 ---
 
 <footer id="normal-footer" class="no-print">
-  Press <kbd>Cmd + K</kbd> to open the command palette.
+  Press <kbd>Cmd + K</kbd> or click here to open the command palette.
 </footer>
 
 <div id="footer-button" class="no-print">
@@ -156,6 +156,9 @@ const profilesInfo = profiles.map(({ network, url }) => {
 
     document.dispatchEvent(event)
   })
+
+  const footer = document.getElementById("normal-footer")
+  footer?.addEventListener('click', ()=>hotkeypad.open())
 </script>
 
 <style>
@@ -215,6 +218,12 @@ const profilesInfo = profiles.map(({ network, url }) => {
     animation: linear 0.3s fadeIn;
     animation-timeline: --revealing;
     animation-range: entry 100% cover 10%;
+    user-select: none;
+  }
+
+  footer:hover {
+    background: #f5f5f5;
+    cursor: pointer;
   }
 
   kbd {

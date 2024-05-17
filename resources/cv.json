@@ -160,10 +160,10 @@
       "url": "https://thepower.education/",
       "area": "Business Administration and Management",
       "type": "Master",
-      "title": "MBA on Business Administration and Management",
+      "title": "Master in Business Administration and Management (MBA)",
       "startDate": "2022-02-01",
       "endDate": "2022-04-29",
-      "summary": "Online MBA with a focus on business management and administration. The program is designed to provide a solid foundation in business management and administration, with a focus on the latest trends and best practices in the field. The program is designed to be flexible and accessible, with a focus on practical skills and real-world applications. Grade: Outstanding.",
+      "summary": "Online MBA with a focus on business management and administration. The program is designed to provide a solid foundation in business management and administration, with a focus on the latest trends and best practices in the field. The program is designed to be flexible and accessible, with a focus on practical skills and real-world applications.\nGrade: Outstanding.",
       "highlights": [
         "MBA", "Business Administration", "Business Management"
       ]
@@ -176,7 +176,7 @@
       "type": "Bachelor",
       "startDate": "2017-02-01",
       "endDate": "2021-01-31",
-      "summary": "Specialisation on Software Engineering.\n Final project: Payments Fraud Prevention (Grade A).",
+      "summary": "Specialisation on Software Engineering.\nFinal project: Payments Fraud Prevention (Grade A).",
       "highlights": [
         "Software Engineering", "Compueter Science", "Payments Fraud Prevention"
       ]
@@ -189,7 +189,7 @@
       "type": "Professional Training",
       "startDate": "2011-09-01",
       "endDate": "2014-06-01",
-      "summary": "Multiplatform applications development in many languages such as Java, Python, XML, SQL. Android applications development. Grade: 8.8.",
+      "summary": "Multiplatform applications development in many languages such as Java, Python, XML, SQL. Android applications development.\nGrade: 8.8.",
       "highlights": [
         "Software Development", "Senior Technician", "Multiplatform Application Development", "Backend", "Java", "Python", "XML", "SQL", "Android"
       ]
@@ -354,7 +354,7 @@
       "score": 100,
       "summary": "Profound knowledge of Software design patterns, best practices and standards.\nDesign and implementation of complex IT solutions mainly focused on the backend side even being capable of guiding the frontend part as well.\nEnthusiast and passionate about microservices and cloud architectures.\nProficiency in Java and Spring.",
       "highlights": [
-      "Software Design Patterns", "Best Practices", "High Quality Standards", "Microservices", "Java", "Spring"
+        "Software Design Patterns", "Best Practices", "High Quality Standards", "Microservices", "Java", "Spring"
       ]
     },
     {
@@ -363,11 +363,21 @@
       "score": 100,
       "summary": "Used to work hand by hand with systems department to coordinate the deployments and build CI/CD processes. Also used to work with Docker and Kubernetes.\nExperience with Gradle, Grafana, JFrog, Jenkins, Maven, Nagios and Puppet.\nPlatform monitoring with ELK stack (Elasticsearch, Logstash, Kibana) and other tools such as OpsCenter for Cassandra, and custom scripts and reports.\nSpecialist in Google Cloud Platform.",
       "highlights": [
-      "CI/CD", "Docker", "Kubernetes", "Grafana", "JFrog", "Jenkins", "Maven", "ELK", "Google Cloud Platform"
+        "CI/CD", "Docker", "Kubernetes", "Grafana", "JFrog", "Jenkins", "Maven", "ELK", "Google Cloud Platform"
       ]
     }
   ],
   "projects": [
+    {
+      "name": "name",
+      "isActive": true,
+      "description": "description",
+      "highlights": [
+        "highlight"
+      ],
+      "url": "https://url.com",
+      "github": ""
+    },
     {
       "name": "name",
       "isActive": true,

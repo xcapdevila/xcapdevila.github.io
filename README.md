@@ -56,6 +56,8 @@ CV structure based on <a href="https://jsonresume.org/schema/">jsonresume.org</a
 
 TBD
 
+🎨 [Skills Icons](https://icon-sets.iconify.design/foundation/?license=MIT)
+
 ## 🛠️ Stack
 
 - [**Astro**](https://astro.build/)

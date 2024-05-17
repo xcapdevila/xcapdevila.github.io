@@ -1,5 +1,6 @@
 ---
 import Section from "../Section.astro"
+import { splitByNewline } from "@/utils/utils.ts"
 import { education } from "@cv"
 ---
 
@@ -7,9 +8,9 @@ import { education } from "@cv"
   <ul>
     {
       education
-      .filter(({ area }) => area === "Computer Science")
+      .filter(({ area }) => area === "Computer Science" || area === "Business Administration and Management")
       .map(
-        ({ institution, startDate, endDate, title }) => {
+        ({ institution, startDate, endDate, title , url, summary, highlights}) => {
         const startYear = new Date(startDate).getFullYear()
         const endYear =
           endDate != null ? new Date(endDate).getFullYear() : "Currently"
@@ -20,14 +21,27 @@ import { education } from "@cv"
             <article>
               <header>
                 <div>
-                  <h3>{institution}</h3>
+                  <h3>{title}</h3>
+                  <h4>
+                    {url ? (
+                      <a href={url} title={`Visit ${institution}`} target="_blank">
+                        {institution}
+                      </a>
+                    ) : (
+                      institution
+                    )}
+                  </h4>
                 </div>
-
                 <time>{years}</time>
               </header>
 
               <footer>
-                <p>{title}</p>
+                <p>{splitByNewline(summary).map((line: string) => <p class="justify-text">{line}</p>)}</p>
+                <p class="highlight">
+                  {highlights.map((highlight) => {
+                    return <span>{highlight}</span>
+                  })}
+                </p>
               </footer>
             </article>
           </li>
@@ -45,8 +59,23 @@ import { education } from "@cv"
   }
 
   article h3 {
-    font-weight: 500;
+    font-weight: 700;
     color: #111;
+    margin-bottom: 8px;
+  }
+
+  article a {
+    color: #111;
+  }
+
+  article a:hover {
+    text-decoration: underline;
+  }
+
+  article h4 {
+    color: #222;
+    font-weight: 500;
+    margin-bottom: 4px;
   }
 
   header {
@@ -64,9 +93,63 @@ import { education } from "@cv"
     cursor: default;
   }
 
+  [data-title]:hover:after {
+    opacity: 1;
+    transition: all 0.1s ease-in-out 0.5s;
+    visibility: visible;
+  }
+
+  [data-title]:after {
+    content: attr(data-title);
+    background-color: #333;
+    color: #fff;
+    font-size: .75rem;
+    font-family: Menlo, Monaco, Lucida Console, "Courier New", monospace;;
+    position: absolute;
+    padding: .2rem .5rem;
+    bottom: -1.4rem;
+    left: 50%;
+    white-space: nowrap;
+    box-shadow: 1px 1px 1px #222222;
+    opacity: 0;
+    border: 1px solid #111111;
+    z-index: 99999;
+    visibility: hidden;
+    border-radius: 6px;
+  }
+
+  [data-title] {
+    position: relative;
+  }
+
   @media (width <= 700px) {
     time {
       text-align: right;
+    }
+  }
+
+  .highlight {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+  }
+
+  .highlight span {
+    border-radius: 6px;
+    background: #eee;
+    color: #444;
+    font-size: 0.6rem;
+    font-weight: 500;
+    padding: 0.2rem 0.6rem;
+    margin: 0.1rem;
+    white-space: nowrap;
+  }
+
+  @media print {
+    .highlight span {
+      border: 1px solid #000;
+      padding: 0.2rem 0.6rem;
+      margin: 0.1rem;
     }
   }
 </style>

@@ -1,10 +1,16 @@
 ---
 import Section from "../Section.astro"
 import Executive from "@/icons/Executive.astro"
+import GitHub_Social from "@/icons/GitHub-Social.astro"
+import Shield from "@/icons/Shield.astro"
+import Target from "@/icons/Target.astro"
 import { skills } from "@cv"
 
 const SKILLS_ICONS: Record<string, any> = {
-  Executive
+  Executive,
+  GitHub_Social,
+  Shield,
+  Target
 }
 ---
 
@@ -12,7 +18,16 @@ const SKILLS_ICONS: Record<string, any> = {
   <ul>
     {
       skills.map(({ name }) => {
-        const iconName = name === "Next.js" ? "Next" : name
+        let iconName;
+        if (name === "Analysis") {
+          iconName = "Target";
+        } else if (name === "Software") {
+          iconName = "GitHub_Social";
+        } else if (name === "DevSecOps") {
+          iconName = "Shield";
+        } else {
+          iconName = name;
+        }
         const Icon = SKILLS_ICONS[iconName]
 
         return (
