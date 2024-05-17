@@ -21,19 +21,19 @@ CV structure based on <a href="https://jsonresume.org/schema/">jsonresume.org</a
 </div>
 
 <div align="center">
-    <a href="#🚀-start">
+    <a href="#-start">
         Start
     </a>
     <span>&nbsp;✦&nbsp;</span>
-    <a href="#🛠️-stack">
+    <a href="#️-stack">
         Stack
     </a>
     <span>&nbsp;✦&nbsp;</span>
-    <a href="#🧞-commands">
-        Command
+    <a href="#-commands">
+        Commands
     </a>
     <span>&nbsp;✦&nbsp;</span>
-    <a href="#🔑-license">
+    <a href="#-license">
         License
     </a> 
 </div>
