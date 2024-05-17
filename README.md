@@ -40,7 +40,7 @@ CV structure based on <a href="https://jsonresume.org/schema/">jsonresume.org</a
 
 <p></p>
 
-<img src="./resources/screenshot.png"></img>
+<img src="./resources/screenshot.jpg"></img>
 
 ## 🚀 Start
 
