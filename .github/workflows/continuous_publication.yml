@@ -30,10 +30,27 @@ jobs:
       - name: Run build
         run: pnpm run build
     
+      - name: Save .htaccess and LICENSE.txt
+        run: |
+          cp .htaccess htaccess_backup
+          cp LICENSE.txt LICENSE_backup
+
+      - name: Checkout master branch
+        uses: actions/checkout@v2
+        with:
+          ref: master
+          clean: false
+
+      - name: Copy files to master branch
+        run: |
+          cp -r dist/* .
+          cp htaccess_backup .htaccess
+          cp LICENSE_backup LICENSE.txt
+
       - name: Commit and push to master branch
         run: |
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'actions@github.com'
-          git add -f dist/**/* LICENSE.txt .htaccess
+          git add -f ./*
           git commit -m '[Automated] Update dist content'
           git push origin master
