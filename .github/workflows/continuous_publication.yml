@@ -22,7 +22,7 @@ jobs:
           node-version: '21'
     
       - name: Install pnpm
-        run: npm install -g pnpm
+        run: npm install -g pnpm@9.0.4
       
       - name: Install dependencies
         run: pnpm install
