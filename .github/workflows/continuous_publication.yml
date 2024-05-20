@@ -30,16 +30,25 @@ jobs:
       - name: Run build
         run: pnpm run build
     
+      - name: Update CHANGELOG.md entry
+        run: |
+          echo -e "## $(date -u)\n- [$(git rev-parse --short HEAD)] $(git log -1 --pretty=%B)\n$(cat CHANGELOG.md)" > CHANGELOG.md
+      
+      - name: Commit CHANGELOG.md to gh-pages branch
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          git add CHANGELOG.md
+          git commit -m '[Automated] Update CHANGELOG.md'
+          git push origin gh-pages
+      
       - name: Prepare publication files
         run: |
           mkdir to_publish
           cp -r dist/* to_publish
           cp LICENSE to_publish
+          cp CHANGELOG.md to_publish
 
-      - name: Prepare CHANGELOG.md entry
-        run: |
-          echo -e "## $(date -u)\n- [$(git rev-parse --short HEAD)] $(git log -1 --pretty=%B)\n$(cat CHANGELOG.md)" > to_publish/CHANGELOG.md
-  
       - name: Checkout master branch
         uses: actions/checkout@v4
         with:
