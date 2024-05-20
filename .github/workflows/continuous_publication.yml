@@ -36,6 +36,10 @@ jobs:
           cp -r dist/* to_publish
           cp LICENSE to_publish
 
+      - name: Prepare CHANGELOG.md entry
+        run: |
+          echo -e "## $(date -u)\n- [$(git rev-parse --short HEAD)] $(git log -1 --pretty=%B)\n$(cat CHANGELOG.md)" > to_publish/CHANGELOG.md
+  
       - name: Checkout master branch
         uses: actions/checkout@v4
         with:
