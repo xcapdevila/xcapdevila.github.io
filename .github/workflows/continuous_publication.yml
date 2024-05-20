@@ -32,7 +32,7 @@ jobs:
     
       - name: Update CHANGELOG.md entry
         run: |
-          echo -e "## $(date -u)\n- [$(git rev-parse --short HEAD)] $(git log -1 --pretty=%B)\n$(cat CHANGELOG.md)" > CHANGELOG.md
+          echo -e "## $(date -u)\n- [$(git rev-parse --short HEAD)] $(git log -1 --pretty=%B)\n\n$(cat CHANGELOG.md)" > CHANGELOG.md
       
       - name: Commit CHANGELOG.md to gh-pages branch
         run: |
