@@ -76,4 +76,4 @@ Open [**http://localhost:4321**](http://localhost:4321/) in your browser to chec
 
 ## 🔑 License
 
-[MIT](LICENSE.txt) - Created by [**xcapdevila**](https://xcapdevila.github.io/).
+[MIT](LICENSE.txt) - Created by [**xcapdevila**](https://xcapdevila.github.io/) 2024.
