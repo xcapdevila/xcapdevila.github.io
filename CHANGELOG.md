@@ -1,3 +1,6 @@
+## Mon Jun  3 09:29:27 UTC 2024
+- [0932355] Fix GitHub Actions workflow to fix _astro directory
+
 ## Mon Jun  3 09:25:18 UTC 2024
 - [8514654] Update GitHub Actions workflow to fix _astro directory
 
