@@ -49,6 +49,13 @@ jobs:
           cp LICENSE to_publish
           cp CHANGELOG.md to_publish
 
+      - name: Fix Astro files
+        run: |
+          mkdir to_publish/astro
+          mv to_publish/_astro to_publish/astro
+          rm -rf to_publish/_astro
+          sed -i 's|/_astro/|/astro/|g' to_publish/astro/index.html
+
       - name: Checkout master branch
         uses: actions/checkout@v4
         with:
