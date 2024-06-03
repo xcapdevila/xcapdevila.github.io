@@ -1,3 +1,6 @@
+## Mon Jun  3 09:25:18 UTC 2024
+- [8514654] Update GitHub Actions workflow to fix _astro directory
+
 ## Mon May 20 18:00:15 UTC 2024
 - [447024a] Update GitHub Actions workflow to update CHANGELOG
 
