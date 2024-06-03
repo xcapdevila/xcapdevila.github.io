@@ -52,7 +52,7 @@ jobs:
       - name: Fix Astro files
         run: |
           mkdir to_publish/astro
-          mv to_publish/_astro to_publish/astro
+          mv to_publish/_astro/* to_publish/astro
           rm -rf to_publish/_astro
           sed -i 's|/_astro/|/astro/|g' to_publish/index.html
 
