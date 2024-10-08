@@ -64,9 +64,9 @@
       "area": "Computer Science",
       "startDate": "2020-08-01",
       "endDate": "2021-09-01",
-      "summary": "Design, implementation and evolution of digital payment platforms based on core and distributed components for the most important payment methods (credit cards, wallets, direct debit) and based on AI.\nCredit card related platforms are PCI-DSS compliant.\nTalent management and technical recruitment.\nProduct Owner & Technical Director.",
+      "summary": "· Led the design and implementation of digital payment platforms, utilizing core and distributed components for various payment methods (credit cards, wallets, direct debit).\n · Managed the evolution of iCarrier Pay (2.0), achieving PCI-DSS certification, which enhanced business capabilities, saved €1 million in third-party payment service provider fees, and enabled seamless bank integrations.\n · Utilized AI technologies to grow the product, predict conversion rates, and evaluate fraud, enhancing overall performance and security.\n · Collaborated on a robust antifraud solution, significantly improving payment security and reliability.\n · Contributed to a notable increase in transaction volume and customer trust in digital payments through effective stakeholder collaboration.",
       "highlights": [
-        "Techincal Director", "Staff Engineer", "Software Architect", "Prodcut Owner", "Telecom", "Payments", "FinTech", "PCI-DSS", "Google Cloud Platform", "Kubernetes", "AI"
+        "Digital Payment Platforms", "PCI-DSS Compliance", "AI Technologies", "Antifraud Solutions", "Stakeholder Engagement"
       ]
     },
     {
@@ -76,9 +76,9 @@
       "area": "Computer Science",
       "startDate": "2019-10-01",
       "endDate": "2020-08-01",
-      "summary": "Drive the company to an agile transformation.\nUse of the SCRUM framework to develop products and lead teams.",
+      "summary": "· Drove the Agile transformation of the company, utilizing the SCRUM framework to develop products and lead teams effectively.\n · Actively engaged in product ownership, ensuring alignment between business goals and development efforts while fostering a culture of collaboration.",
       "highlights": [
-        "Agile Transformation", "Product Owner", "SCRUM Master"
+        "Agile Transformation", "SCRUM Framework", "Product Ownership", "Team Leadership", "Collaboration Culture"
       ]
     },
     {
@@ -88,9 +88,9 @@
       "area": "Computer Science",
       "startDate": "2018-11-01",
       "endDate": "2021-09-01",
-      "summary": "Advanced design patterns and new technologies (Cloud based and on-premise).\nCollaboration in R+D+I initiatives.\nDefinition of the Software Development guidelines and standards.\nDesign and implementation Continuous Integration and Continuous Deployment (CI/CD) pipelines.\nDesign of IT solutions for value added services for telecommunication companies worldwide.\nDesign and implementation of the iCarrier platform based on AI and core components.\nDesign and implementation of PCI-DSS payment platforms (core and local).\nTalent management and technical recruitment.",
+      "summary": "· Championed advanced design patterns and technologies, focusing on both cloud-based and on-premise solutions.\n · Introduced key technologies such as Spring Boot, Domain-Driven Design (DDD), and Test-Driven Development (TDD), elevating the programming standards within the team.\n · Spearheaded the transition to Agile methodologies, enhancing the team's quality and delivery capabilities, establishing it as a reference point for performance within the company.\n · Transformed talent management and technical recruitment processes, creating a top-performing Class A unit.\n · Defined software development guidelines and standards while implementing Continuous Integration and Continuous Deployment (CI/CD) pipelines.\n · Designed IT solutions for value-added services for telecommunications companies globally, emphasizing PCI-DSS compliance in payment platforms.\n · Played a key role in R&D initiatives, fostering innovation within the development team and promoting collaboration among cross-functional teams.\n · Co-authored the design of the MEP (Medios Electrónicos de Pago), leading its implementation and evolution, serving as the foundational platform for iCarrier Pay development, resulting in 5 million successful transactions within its first year.",
       "highlights": [
-        "Head of Software Development", "Staff Engineer", "Software Architect", "Telecom", "Payments", "FinTech", "PCI-DSS", "R+D+I", "Microservices architectures", "Google Cloud Platform", "CI/CD", "Talent Management", "Technical Recruitment"
+        "Advanced Design Patterns", "CI/CD Implementation", "Cloud Solutions", "Technical Leadership", "Software Development Standards", "Agile Transformation", "Cross-Functional Collaboration"
       ]
     },
     {
@@ -100,9 +100,9 @@
       "area": "Computer Science",
       "startDate": "2015-10-01",
       "endDate": "2018-11-01",
-      "summary": "Software Engineer in charge of the design and programming of IT solutions for value added services for telecommunication companies worldwide.\nCollaboration with the Head of Software Development in teams and projects management, assuming his role in his absence.\nMain technologies: Apache Spark, Bash Scripting, BigQuery, Cassandra, Docker, Glassfish, Git, GO, HAProxy, Java8/JEE, JavaSpark, Javascript, JFrog, JWT, Kotlin, Microservices Architecture, MySQL, Redis, SMPP, Spring & Spring Boot, SQL, SVN, TCP, Webservices AXIS/REST/SOAP.\nSpecialist in Java/JEE.",
+      "summary": "· Served as a software engineer designing and programming IT solutions for telecommunications companies worldwide.\n · Collaborated on team and project management, ensuring continuity in leadership.\n · Specialized in Java/JEE, leveraging Microservices architecture, Docker, JavaSpark, Cassandra, and Redis to develop effective IT solutions.",
       "highlights": [
-        "Deputy Head of Software Development", "Software Engineer", "Telecom", "Cloud", "Google Cloud Platform", "Amazon WebServices", "Docker", "Kubernetes", "JavaSpark", "Spring", "Spring Boot", "Microservices", "Cassandra", "Redis", "MySQL", "BigQuery", "SMPP", "Webservices", "JFrog", "Jenkins", "Git", "HAProxy"
+        "Software Engineering", "Team Management", "Java/JEE Expertise", "Microservices Architecture", "Teachinal Leadership"
       ]
     },
     {
