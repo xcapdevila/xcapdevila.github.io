@@ -112,9 +112,9 @@
       "area": "Computer Science",
       "startDate": "2015-04-01",
       "endDate": "2015-10-01",
-      "summary": "Projects Technical Lead. Involved in international projects.\nAll kind of enterprise applications (desktop, microservices, mobile, web, web services) mainly focused on server side.\nMain frameworks: AngularJS, JPA, Spark, Spring, Velocity, ZK.\nMain patterns: MVVM, MVC, MV*.\nMain environments: AWS, Docker, Tomcat.",
+      "summary": "· Technical Lead on international projects, overseeing the development of a wide range of enterprise applications, including desktop, mobile, and web solutions, with a strong emphasis on server-side components.\n · Utilized various frameworks such as AngularJS, JPA, JavaSpark, Spring, Velocity, and ZK, to deliver high-quality applications.\n · Applied design patterns including MVVM, MVC, and other MV* variations to create scalable and maintainable solutions.\n · Managed cloud environments leveraging AWS and containerization technologies like Docker, ensuring seamless deployment and operation of applications.\n · Fostered collaboration among cross-functional teams to drive project success and adherence to best practices in software development.",
       "highlights": [
-        "Technical Lead", "Spring", "Spring Boot", "JavaSpark", "MV*", "Amazon WebServices", "Docker"
+        "Technical Leadership", "Enterprise Application Development", "Java/JEE Expertise", "Cloud Management", "Design Patterns"
       ]
     },
     {
