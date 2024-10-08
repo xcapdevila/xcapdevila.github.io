@@ -334,36 +334,36 @@
       "name": "Executive",
       "level": "Master",
       "score": 100,
-      "summary": "Leadership and management wide experience. Agile Management practitioner.\nLeading and managing local and global distributed teams as a daily basis.\nStakeholders and project management.\nRelated tasks: mentoring, coaching, goal setting, resource planing, among others.",
+      "summary": "· Leadership and Management: Extensive experience in leading and managing local and global distributed teams daily. Proficient in Stakeholder and Project Management.\n · Agile Management: Practicing Agile methodologies, including mentoring, coaching, goal setting, and resource planning.\n · Management Skills: Strong leadership abilities with a focus on team development and performance enhancement.\n · Stakeholder Engagement: Expertise in fostering relationships with stakeholders to align project goals with business objectives.",
       "highlights": [
-        "Leadership", "Management"
+        "Leadership", "Agile Management", "Stakeholder Engagement", "Team Development", "Project Management"
       ]
     },
     {
       "name": "Analysis",
       "level": "Master",
       "score": 100,
-      "summary": "Big picture vision and business analysis capabilities.\nDesign and coordination of complex IT solutions.\nUse of AI & Cloud technologies to analise and evolve the deployed applications.",
+      "summary": "· Big Picture Vision: Adept at business analysis, enabling a comprehensive understanding of project requirements and objectives.\n · Complex IT Solutions: Design and coordination of intricate IT systems, leveraging AI and cloud technologies to analyze and evolve deployed applications.",
       "highlights": [
-        "Bic Picture", "Complex IT Solutions", "AI", "Cloud"
+        "Business Analysis", "Big Picture Vision", "Complex IT Solutions", "AI Integration", "Cloud Technologies"
       ]
     },
     {
       "name": "Software",
       "level": "Master",
       "score": 100,
-      "summary": "Profound knowledge of Software design patterns, best practices and standards.\nDesign and implementation of complex IT solutions mainly focused on the backend side even being capable of guiding the frontend part as well.\nEnthusiast and passionate about microservices and cloud architectures.\nProficiency in Java and Spring.",
+      "summary": "· Software Design Patterns: In-depth knowledge of design patterns, best practices, and standards to ensure high-quality software development.\n · Backend Solutions: Design and implementation of complex IT solutions, with a strong focus on backend systems while also guiding frontend development.\n · Microservices Enthusiast: Passionate about microservices and cloud architectures, emphasizing scalable and maintainable systems.\n · Technical Proficiency: High proficiency in Java and Spring frameworks.",
       "highlights": [
-        "Software Design Patterns", "Best Practices", "High Quality Standards", "Microservices", "Java", "Spring"
+        "Software Design Patterns", "Backend Development", "Microservices Architecture", "Java Proficiency", "Spring Framework"
       ]
     },
     {
       "name": "DevSecOps",
       "level": "Master",
       "score": 100,
-      "summary": "Used to work hand by hand with systems department to coordinate the deployments and build CI/CD processes. Also used to work with Docker and Kubernetes.\nExperience with Gradle, Grafana, JFrog, Jenkins, Maven, Nagios and Puppet.\nPlatform monitoring with ELK stack (Elasticsearch, Logstash, Kibana) and other tools such as OpsCenter for Cassandra, and custom scripts and reports.\nSpecialist in Google Cloud Platform.",
+      "summary": "· CI/CD Coordination: Collaborating closely with systems departments to establish CI/CD processes for efficient deployments.\n · Containerization: Experienced with Docker and Kubernetes for orchestration and container management.\n · Monitoring Tools: Proficient in tools like Gradle, Grafana, JFrog, Jenkins, Maven, Nagios, and Puppet for building, monitoring, and managing applications.\n · Platform Monitoring: Expertise in platform monitoring using the ELK stack (Elasticsearch, Logstash, Kibana) and tools such as OpsCenter for Cassandra, along with custom scripts and reports.\n · Cloud Specialist: Specialized in Google Cloud Platform for deploying and managing cloud-based applications.",
       "highlights": [
-        "CI/CD", "Docker", "Kubernetes", "Grafana", "JFrog", "Jenkins", "Maven", "ELK", "Google Cloud Platform"
+        "CI/CD Pipelines", "Containerization", "Monitoring Tools", "ELK Stack", "Google Cloud Platform"
       ]
     }
   ],
