@@ -35,14 +35,14 @@
   "work": [
     {
       "company": "Inditex",
-      "position": "Software Architect",
+      "position": "Software Architect | Senior Staff Engineer",
       "url": "https://inditex.com",
       "area": "Computer Science",
       "startDate": "2022-11-01",
       "endDate": null,
-      "summary": "Crafting IT solutions using advanced design patterns and new technologies (cloud and on-premise).",
+      "summary": "· Leading the design and development of scalable and secure IT solutions within the Payments domain, with a focus on PCI compliance, cryptographic solutions, and enhancements in payment data storage.\n · Collaborating closely with stakeholders and cross-functional teams to ensure solutions meet business objectives, while promoting craftsmanship and excellence in software development.\n · Supporting payment teams in their development processes to improve performance and align with best practices.\n · Engaging in continuous improvement initiatives to integrate innovative technologies that optimize payment processes and enhance user experience.",
       "highlights": [
-        "Senior Staff Engineer", "Software Architect", "e-Commerce", "Payments"
+        "Payments System", "PCI-DSS Compliance", "Cryptographic Solutions", "E-commerce Solutions", "Innovative Technologies"
       ]
     },
     {
