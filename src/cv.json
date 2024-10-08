@@ -66,7 +66,7 @@
       "endDate": "2021-09-01",
       "summary": "· Led the design and implementation of digital payment platforms, utilizing core and distributed components for various payment methods (credit cards, wallets, direct debit).\n · Managed the evolution of iCarrier Pay (2.0), achieving PCI-DSS certification, which enhanced business capabilities, saved €1 million in third-party payment service provider fees, and enabled seamless bank integrations.\n · Utilized AI technologies to grow the product, predict conversion rates, and evaluate fraud, enhancing overall performance and security.\n · Collaborated on a robust antifraud solution, significantly improving payment security and reliability.\n · Contributed to a notable increase in transaction volume and customer trust in digital payments through effective stakeholder collaboration.",
       "highlights": [
-        "Digital Payment Platforms", "PCI-DSS Compliance", "AI Technologies", "Antifraud Solutions", "Stakeholder Engagement"
+        "Digital Payment Platforms", "PCI-DSS Compliance", "AI Technologies", "Payment Fraud Prevention", "Stakeholder Engagement"
       ]
     },
     {
@@ -176,9 +176,9 @@
       "type": "Bachelor",
       "startDate": "2017-02-01",
       "endDate": "2021-01-31",
-      "summary": "Specialisation on Software Engineering.\nFinal project: Payments Fraud Prevention (Grade A).",
+      "summary": "Specialisation on Software Engineering.\nFinal project: Payment Fraud Prevention (Grade A).",
       "highlights": [
-        "Software Engineering", "Compueter Science", "Payments Fraud Prevention"
+        "Software Engineering", "Compueter Science", "Payment Fraud Prevention"
       ]
     },
     {
