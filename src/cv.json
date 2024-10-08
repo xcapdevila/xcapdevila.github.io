@@ -124,9 +124,9 @@
       "area": "Computer Science",
       "startDate": "2013-12-01",
       "endDate": "2015-10-01",
-      "summary": "Involved in international projects.\nAll kind of enterprise applications (web, desktop, mobile, web services) mainly focused on server side.\nMain frameworks: Spring, JPA, Velocity, ZK.\nMain patterns: MVVM, MVC.\nMain environments: AWS, Tomcat.",
+      "summary": "· Contributed to international projects, focusing on the development of various enterprise applications, including web, desktop, mobile, and web services, with an emphasis on server-side functionality.\n · Leveraged frameworks such as Spring, JPA, Velocity, and ZK to deliver robust and scalable solutions.\n · Implemented design patterns like MVVM and MVC to enhance code structure and maintainability.\n · Worked within cloud environments utilizing AWS and Tomcat, ensuring efficient deployment and management of applications.\n · Collaborated with cross-functional teams to ensure project alignment with business objectives and adherence to best practices in software development.",
       "highlights": [
-        "Software Developer", "Spring", "JPA", "Velocity", "ZK", "MVVM", "MVC", "Amazon WebServices", "Tomcat"
+        "Enterprise Application Development", "Design Patterns", "Amazon Web Services", "Spring/Spring Boot", "ZK / Velocity"
       ]
     },
     {
