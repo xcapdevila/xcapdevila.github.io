@@ -148,9 +148,9 @@
       "area": "Computer Science",
       "startDate": "2011-05-01",
       "endDate": "2011-06-01",
-      "summary": "Specific project. Desktop application to manage and load data from a digital sonometer CESVA SC102.\nLanguage .NET. Built in Visual Studio 2010.",
+      "summary": "· Developed a desktop application for managing and loading data from the CESVA SC102 digital sonometer as part of a specific project.\n · Utilized .NET framework and Visual Studio 2010 for application development, ensuring efficient data handling and user interface functionality.",
       "highlights": [
-        "Software Developer", ".NET", "Visual Studio"
+        "Application Development", ".NET Framework", "Visual Studio 2010", "Data Management", "User Interface Design"
       ]
     }
   ],
