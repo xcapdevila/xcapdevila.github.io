@@ -1,7 +1,5 @@
 ## Wed Oct  9 16:57:31 UTC 2024
-- [9f426cb] Merge pull request #7 from xcapdevila/feature/fix-build-workflow
-
-[Fix Build Workflow] Do not lock package.json
+- [9f426cb] [Fix Build Workflow] Do not lock package.json (#7)
 
 ## Wed Oct  9 16:40:16 UTC 2024
 - [7e72dbd] [Content improvements] Refactor contents (#5)
