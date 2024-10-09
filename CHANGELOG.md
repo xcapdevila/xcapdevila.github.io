@@ -1,3 +1,30 @@
+## Wed Oct  9 16:40:16 UTC 2024
+- [7e72dbd] [Content improvements] Refactor contents (#5)
+
+* [Content improvements] Update summary
+
+* [Content improvements] Update work experience Inditex
+
+* [Content improvements] Update work experience Paradigma Digital
+
+* [Content improvements] Update work experience at fonYou
+
+* [Content improvements] Update work experience at Trantor
+
+* [Content improvements] Update work experience at QPrima
+
+* [Content improvements] Update work experience at Saclo
+
+* [Content improvements] Update work experience at Solfesa
+
+* [Content improvements] Fix typos
+
+* [Content improvements] Standardise terms
+
+* [Content improvements] Update Skills
+
+* [Content improvements] Update Education
+
 ## Mon Jun  3 09:45:57 UTC 2024
 - [b3581eb] Fix GitHub Actions workflow to fix _astro directory
 
