@@ -8,7 +8,7 @@ import { education } from "@/cv.json"
   <ul>
     {
       education
-      .filter(({ area }) => area === "Computer Science" || area === "Business Administration and Management")
+      .filter(({ area }) => area === "Computer Science" || area === "Business Administration")
       .map(
         ({ institution, startDate, endDate, title , url, summary, highlights}) => {
         const startYear = new Date(startDate).getFullYear()

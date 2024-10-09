@@ -158,14 +158,14 @@
     {
       "institution": "The PowerMBA",
       "url": "https://thepower.education/",
-      "area": "Business Administration and Management",
+      "area": "Business Administration",
       "type": "Master",
-      "title": "Master in Business Administration and Management (MBA)",
+      "title": "Master in Business Administration (MBA)",
       "startDate": "2022-02-01",
       "endDate": "2022-04-29",
-      "summary": "Online MBA with a focus on business management and administration. The program is designed to provide a solid foundation in business management and administration, with a focus on the latest trends and best practices in the field. The program is designed to be flexible and accessible, with a focus on practical skills and real-world applications.\nGrade: Outstanding.",
+      "summary": "Completed an online MBA focused on business management, administration, and current industry trends. The program emphasized practical skills and real-world applications, providing a strong foundation in leadership, strategy, and modern business practices.\n Grade: Outstanding.",
       "highlights": [
-        "MBA", "Business Administration", "Business Management"
+        "MBA", "Business Administration", "Leadership", "Business Strategy", "Real-World Applications"
       ]
     },
     {
@@ -176,9 +176,9 @@
       "type": "Bachelor",
       "startDate": "2017-02-01",
       "endDate": "2021-01-31",
-      "summary": "Specialisation on Software Engineering.\nFinal project: Payment Fraud Prevention (Grade A).",
+      "summary": "Specialized in Software Engineering, with a strong focus on developing secure and scalable systems. Final project on Payment Fraud Prevention received a Grade A, showcasing expertise in building robust, fraud-resistant payment solutions.",
       "highlights": [
-        "Software Engineering", "Compueter Science", "Payment Fraud Prevention"
+        "Software Engineering", "Computer Science", "Payment Fraud Prevention", "Secure Systems", "Scalable Solutions"
       ]
     },
     {
@@ -189,9 +189,9 @@
       "type": "Professional Training",
       "startDate": "2011-09-01",
       "endDate": "2014-06-01",
-      "summary": "Multiplatform applications development in many languages such as Java, Python, XML, SQL. Android applications development.\nGrade: 8.8.",
+      "summary": "Focused on the development of multiplatform applications across various languages, including Java, Python, XML, and SQL. Specialized in Android application development with a strong foundation in backend technologies. Graduated with a Grade of 8.8, demonstrating proficiency in delivering high-quality solutions across platforms.",
       "highlights": [
-        "Software Development", "Senior Technician", "Multiplatform Application Development", "Backend", "Java", "Python", "XML", "SQL", "Android"
+        "Software Development", "Multiplatform Application Development", "Backend", "Java", "Python", "XML", "SQL", "Android Development"
       ]
     },
     {
@@ -202,9 +202,9 @@
       "type": "Professional Course",
       "startDate": "2013-11-01",
       "endDate": "2014-03-01",
-      "summary": "Fundamentals of Java technology and programming (250h).",
+      "summary": "Completed a 250-hour intensive course on the fundamentals of Java technology and programming, focusing on backend development and software design principles. Gained hands-on experience in Java programming, enhancing skills in building robust and scalable applications.",
       "highlights": [
-        "Software Development", "Programmer Analyst", "Backend", "Java"
+        "Java Programming", "Software Development", "Programmer Analyst", "Backend Development", "Java Technology"
       ]
     },
     {
@@ -215,9 +215,9 @@
       "type": "Professional Course",
       "startDate": "2013-12-01",
       "endDate": "2014-02-01",
-      "summary": "Development of HTML5 applications for Firefox OS (40h).",
+      "summary": "Completed a 40-hour course focused on developing HTML5 applications specifically for Firefox OS. Gained proficiency in HTML5, CSS3, and JavaScript, mastering the fundamentals of frontend development and responsive design for modern web applications.",
       "highlights": [
-        "Software Development", "Frontend", "HTML5", "CSS3", "JavaScript"
+        "Frontend Development", "HTML5", "CSS3", "JavaScript", "Web Applications", "Responsive Design"
       ]
     },
     {
@@ -228,9 +228,9 @@
       "type": "Professional Course",
       "startDate": "2013-04-01",
       "endDate": "2013-10-01",
-      "summary": "Android: applications development (120h).",
+      "summary": "Completed a comprehensive 120-hour program focused on Android application development, with an emphasis on creating robust, scalable apps using Java. The course covered key aspects of mobile development, including user interface design, activity lifecycle management, and integration with Android APIs.",
       "highlights": [
-        "Software Development", "Apps", "Android", "Java"
+        "Mobile App Development", "Android", "Java", "App Design", "User Interface", "Android APIs"
       ]
     },
     {
@@ -241,9 +241,9 @@
       "type": "Professional Course",
       "startDate": "2013-02-01",
       "endDate": "2013-05-01",
-      "summary": "Web development basics (36h).",
+      "summary": "Completed a foundational 36-hour course in web development, focusing on the essential technologies of HTML, CSS, and JavaScript. Gained practical skills in building responsive and interactive web pages, covering topics such as layout design, styling techniques, and client-side scripting. This program provided a solid understanding of best practices in frontend development.",
       "highlights": [
-        "Software Development", "Frontend", "Web", "HTML", "CSS", "JavaScript"
+        "Web Development", "Frontend", "HTML", "CSS", "JavaScript", "Responsive Design", "Client-Side Scripting"
       ]
     },
     {
@@ -254,9 +254,9 @@
       "type": "Professional Training",
       "startDate": "2013-12-01",
       "endDate": "2014-02-01",
-      "summary": "Only first course done due to work reasons. Grade: 7.8.",
+      "summary": "Completed the first course with a grade of 7.8. Incomplete due to work commitments.",
       "highlights": [
-        "Chemistry", "Laboratory", "Chemist Analysis", "Quality Control"
+        "Laboratory Analysis", "Quality Control", "Chemistry", "Analytical Techniques"
       ]
     },
     {
@@ -269,7 +269,7 @@
       "endDate": "2003-06-01",
       "summary": "Technician on Laboratory. Grade: 8.9.",
       "highlights": [
-        "Chemistry", "Laboratory"
+        "Laboratory Techniques", "Chemistry", "Quality Assurance"
       ]
     }
   ],
