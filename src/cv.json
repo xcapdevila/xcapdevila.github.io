@@ -6,7 +6,7 @@
     "email": "",
     "phone": "",
     "url": "https://xcapdevila.github.io/",
-    "summary": "Software Engineer with more than 11 years of experience.\nI am currently Software Architect at Inditex where I design IT solutions using advanced design patterns and new technologies. I'm used to work in on-premise solutions and in Cloud based solutions (Azure, AWS, GCP) as well.\nI have extensive experience in the sectors of digital payments (PCI-DSS), e-commerce, Fintech and telecom.\n\nI am passionate about my work and, although I enjoy all aspects of it, my favourite stage of a project is, after working with the stakeholders and the product unit leader to understand the business objectives, design the IT solution and implement it together with the team. I love learning new management methodologies and new technologies; and I am always evolving through continuous training.\n\nIn addition, I have knowledge and wide experience in Agile and Agile Management methodologies. Speaking of Scrum, I am Product Owner and Scrum Master. I have also led development teams and projects of up to 12 people.\n\nI like to stay in touch with other IT experts. I am open to connect with former colleagues, managers, or just interesting people, so don't hesitate to contact me.",
+    "summary": "With over 11 years of experience, I am a passionate and hands-on Software Architect specializing in payments systems, Fintech solutions, and e-commerce platforms. My expertise lies in designing and implementing scalable, secure architectures that meet business goals while adhering to the highest technical standards. I have led the development of PCI-DSS compliant systems and architected distributed platforms, building high-performance solutions capable of processing millions of transactions daily.\n Currently, as a Software Architect at Inditex, I design enterprise-grade IT systems across cloud (Azure, AWS, GCP) and on-premise environments, employing advanced design patterns and best practices for performance, security, and maintainability. My focus is on creating complex, elegant architectures that adapt seamlessly to evolving requirements and technologies.\n I have a substantial background in the payments domain, where I’ve designed and developed digital payment platforms supporting various methods, including credit cards, wallets, direct debit, and Alternative Payment Methods (APMs). My expertise also encompasses implementing effective fraud prevention mechanisms and enhancing operational efficiency through innovative technologies.\n I thrive on collaborating with stakeholders to transform business objectives into technically sound solutions. My commitment to architectural excellence drives me to apply proven design patterns, microservices architecture, and cloud-native strategies to develop resilient and scalable systems. I am dedicated to continuous learning, leveraging the latest technologies and management methodologies to ensure each solution meets the highest standards.\n In addition to my technical focus, I bring leadership experience in Agile methodologies, successfully serving as a Product Owner and Scrum Master. I have guided teams through Agile transformations and managed up to 12 engineers. While Agile is part of my toolkit, my core passion lies in building exceptional technical solutions and fostering a culture of technical excellence within development teams.\n Let’s connect if you want to discuss payment systems, complex architectures, or the latest trends in software design and development! I am eager to explore opportunities for collaboration and share insights on emerging technologies.\n",
     "location": {
       "address": "",
       "postalCode": "",
@@ -35,26 +35,26 @@
   "work": [
     {
       "company": "Inditex",
-      "position": "Software Architect",
+      "position": "Software Architect | Senior Staff Engineer",
       "url": "https://inditex.com",
       "area": "Computer Science",
       "startDate": "2022-11-01",
       "endDate": null,
-      "summary": "Crafting IT solutions using advanced design patterns and new technologies (cloud and on-premise).",
+      "summary": "· Leading the design and development of scalable and secure IT solutions within the Payments domain, with a focus on PCI compliance, cryptographic solutions, and enhancements in payment data storage.\n · Collaborating closely with stakeholders and cross-functional teams to ensure solutions meet business objectives, while promoting craftsmanship and excellence in software development.\n · Supporting payment teams in their development processes to improve performance and align with best practices.\n · Engaging in continuous improvement initiatives to integrate innovative technologies that optimize payment processes and enhance user experience.",
       "highlights": [
-        "Senior Staff Engineer", "Software Architect", "e-Commerce", "Payments"
+        "Digital Payment Platform", "PCI-DSS Compliance", "Cryptographic Solutions", "E-commerce Solutions", "Innovative Technologies"
       ]
     },
     {
       "company": "Paradigma Digital",
-      "position": "Software Architect",
+      "position": "Software Architect | Senior Staff Engineer",
       "url": "https://paradigmadigital.com",
       "area": "Computer Science",
       "startDate": "2021-09-01",
       "endDate": "2022-11-01",
-      "summary": "Working for Inditex company, responsible for crafting of IT solutions using advanced design patterns and new technologies (cloud and on-premise).",
+      "summary": "· Contributed to the Product & Catalog domain of e-commerce, architecting solutions that enhanced product management and customer engagement.\n · Helped improve the performance of the Grids team by enhancing the solution and assisting in the migration from a legacy environment, which supported an increase in product availability on the e-commerce platform.\n · Focused on crafting IT solutions using advanced technologies and design patterns to ensure high performance and scalability in a rapidly evolving digital marketplace.\n · Collaborated with product teams to translate business requirements into technical specifications, ensuring effective integration and functionality across various platforms.",
       "highlights": [
-        "Senior Staff Engineer", "Software Architect", "e-Commerce", "Product & Catalog"
+        "E-commerce Solutions", "Product Management", "Legacy System Migration", "High Performance and Scalability", "Team Collaboration Leadership"
       ]
     },
     {
@@ -64,9 +64,9 @@
       "area": "Computer Science",
       "startDate": "2020-08-01",
       "endDate": "2021-09-01",
-      "summary": "Design, implementation and evolution of digital payment platforms based on core and distributed components for the most important payment methods (credit cards, wallets, direct debit) and based on AI.\nCredit card related platforms are PCI-DSS compliant.\nTalent management and technical recruitment.\nProduct Owner & Technical Director.",
+      "summary": "· Led the design and implementation of digital payment platforms, utilizing core and distributed components for various payment methods (credit cards, wallets, direct debit).\n · Managed the evolution of iCarrier Pay (2.0), achieving PCI-DSS certification, which enhanced business capabilities, saved €1 million in third-party payment service provider fees, and enabled seamless bank integrations.\n · Utilized AI technologies to grow the product, predict conversion rates, and evaluate fraud, enhancing overall performance and security.\n · Collaborated on a robust antifraud solution, significantly improving payment security and reliability.\n · Contributed to a notable increase in transaction volume and customer trust in digital payments through effective stakeholder collaboration.",
       "highlights": [
-        "Techincal Director", "Staff Engineer", "Software Architect", "Prodcut Owner", "Telecom", "Payments", "FinTech", "PCI-DSS", "Google Cloud Platform", "Kubernetes", "AI"
+        "Digital Payment Platform", "PCI-DSS Compliance", "AI Technologies", "Payment Fraud Prevention", "Stakeholder Engagement"
       ]
     },
     {
@@ -76,9 +76,9 @@
       "area": "Computer Science",
       "startDate": "2019-10-01",
       "endDate": "2020-08-01",
-      "summary": "Drive the company to an agile transformation.\nUse of the SCRUM framework to develop products and lead teams.",
+      "summary": "· Drove the Agile transformation of the company, utilizing the SCRUM framework to develop products and lead teams effectively.\n · Actively engaged in product ownership, ensuring alignment between business goals and development efforts while fostering a culture of collaboration.",
       "highlights": [
-        "Agile Transformation", "Product Owner", "SCRUM Master"
+        "Agile Transformation", "SCRUM Framework", "Product Ownership", "Team Leadership", "Collaboration Culture"
       ]
     },
     {
@@ -88,9 +88,9 @@
       "area": "Computer Science",
       "startDate": "2018-11-01",
       "endDate": "2021-09-01",
-      "summary": "Advanced design patterns and new technologies (Cloud based and on-premise).\nCollaboration in R+D+I initiatives.\nDefinition of the Software Development guidelines and standards.\nDesign and implementation Continuous Integration and Continuous Deployment (CI/CD) pipelines.\nDesign of IT solutions for value added services for telecommunication companies worldwide.\nDesign and implementation of the iCarrier platform based on AI and core components.\nDesign and implementation of PCI-DSS payment platforms (core and local).\nTalent management and technical recruitment.",
+      "summary": "· Championed advanced design patterns and technologies, focusing on both cloud-based and on-premise solutions.\n · Introduced key technologies such as Spring Boot, Domain-Driven Design (DDD), and Test-Driven Development (TDD), elevating the programming standards within the team.\n · Spearheaded the transition to Agile methodologies, enhancing the team's quality and delivery capabilities, establishing it as a reference point for performance within the company.\n · Transformed talent management and technical recruitment processes, creating a top-performing Class A unit.\n · Defined software development guidelines and standards while implementing Continuous Integration and Continuous Deployment (CI/CD) pipelines.\n · Designed IT solutions for value-added services for telecommunications companies globally, emphasizing PCI-DSS compliance in payment platforms.\n · Played a key role in R&D initiatives, fostering innovation within the development team and promoting collaboration among cross-functional teams.\n · Co-authored the design of the MEP (Medios Electrónicos de Pago), leading its implementation and evolution, serving as the foundational platform for iCarrier Pay development, resulting in 5 million successful transactions within its first year.",
       "highlights": [
-        "Head of Software Development", "Staff Engineer", "Software Architect", "Telecom", "Payments", "FinTech", "PCI-DSS", "R+D+I", "Microservices architectures", "Google Cloud Platform", "CI/CD", "Talent Management", "Technical Recruitment"
+        "Advanced Design Patterns", "CI/CD Implementation", "Cloud Solutions", "Technical Leadership", "Software Development Standards", "Agile Transformation", "Cross-Functional Collaboration"
       ]
     },
     {
@@ -100,9 +100,9 @@
       "area": "Computer Science",
       "startDate": "2015-10-01",
       "endDate": "2018-11-01",
-      "summary": "Software Engineer in charge of the design and programming of IT solutions for value added services for telecommunication companies worldwide.\nCollaboration with the Head of Software Development in teams and projects management, assuming his role in his absence.\nMain technologies: Apache Spark, Bash Scripting, BigQuery, Cassandra, Docker, Glassfish, Git, GO, HAProxy, Java8/JEE, JavaSpark, Javascript, JFrog, JWT, Kotlin, Microservices Architecture, MySQL, Redis, SMPP, Spring & Spring Boot, SQL, SVN, TCP, Webservices AXIS/REST/SOAP.\nSpecialist in Java/JEE.",
+      "summary": "· Served as a software engineer designing and programming IT solutions for telecommunications companies worldwide.\n · Collaborated on team and project management, ensuring continuity in leadership.\n · Specialized in Java/JEE, leveraging Microservices architecture, Docker, JavaSpark, Cassandra, and Redis to develop effective IT solutions.",
       "highlights": [
-        "Deputy Head of Software Development", "Software Engineer", "Telecom", "Cloud", "Google Cloud Platform", "Amazon WebServices", "Docker", "Kubernetes", "JavaSpark", "Spring", "Spring Boot", "Microservices", "Cassandra", "Redis", "MySQL", "BigQuery", "SMPP", "Webservices", "JFrog", "Jenkins", "Git", "HAProxy"
+        "Software Engineering", "Team Management", "Java/JEE Expertise", "Microservices Architecture", "Teachinal Leadership"
       ]
     },
     {
@@ -112,9 +112,9 @@
       "area": "Computer Science",
       "startDate": "2015-04-01",
       "endDate": "2015-10-01",
-      "summary": "Projects Technical Lead. Involved in international projects.\nAll kind of enterprise applications (desktop, microservices, mobile, web, web services) mainly focused on server side.\nMain frameworks: AngularJS, JPA, Spark, Spring, Velocity, ZK.\nMain patterns: MVVM, MVC, MV*.\nMain environments: AWS, Docker, Tomcat.",
+      "summary": "· Technical Lead on international projects, overseeing the development of a wide range of enterprise applications, including desktop, mobile, and web solutions, with a strong emphasis on server-side components.\n · Utilized various frameworks such as AngularJS, JPA, JavaSpark, Spring, Velocity, and ZK, to deliver high-quality applications.\n · Applied design patterns including MVVM, MVC, and other MV* variations to create scalable and maintainable solutions.\n · Managed cloud environments leveraging AWS and containerization technologies like Docker, ensuring seamless deployment and operation of applications.\n · Fostered collaboration among cross-functional teams to drive project success and adherence to best practices in software development.",
       "highlights": [
-        "Technical Lead", "Spring", "Spring Boot", "JavaSpark", "MV*", "Amazon WebServices", "Docker"
+        "Technical Leadership", "Enterprise Application Development", "Java/JEE Expertise", "Cloud Management", "Design Patterns"
       ]
     },
     {
@@ -124,9 +124,9 @@
       "area": "Computer Science",
       "startDate": "2013-12-01",
       "endDate": "2015-10-01",
-      "summary": "Involved in international projects.\nAll kind of enterprise applications (web, desktop, mobile, web services) mainly focused on server side.\nMain frameworks: Spring, JPA, Velocity, ZK.\nMain patterns: MVVM, MVC.\nMain environments: AWS, Tomcat.",
+      "summary": "· Contributed to international projects, focusing on the development of various enterprise applications, including web, desktop, mobile, and web services, with an emphasis on server-side functionality.\n · Leveraged frameworks such as Spring, JPA, Velocity, and ZK to deliver robust and scalable solutions.\n · Implemented design patterns like MVVM and MVC to enhance code structure and maintainability.\n · Worked within cloud environments utilizing AWS and Tomcat, ensuring efficient deployment and management of applications.\n · Collaborated with cross-functional teams to ensure project alignment with business objectives and adherence to best practices in software development.",
       "highlights": [
-        "Software Developer", "Spring", "JPA", "Velocity", "ZK", "MVVM", "MVC", "Amazon WebServices", "Tomcat"
+        "Enterprise Application Development", "Design Patterns", "Amazon Web Services", "Spring/Spring Boot", "ZK / Velocity"
       ]
     },
     {
@@ -136,9 +136,9 @@
       "area": "Computer Science",
       "startDate": "2011-12-01",
       "endDate": "2012-01-01",
-      "summary": "Specific project. Design and code a shipment management database.\nLanguage Visual Basic for Applications (VBA). Built in Access 2010.",
+      "summary": "· Designed and developed a shipment management database as part of a specific project.\n · Utilized Visual Basic for Applications (VBA) for coding and built the solution within Microsoft Access 2010.\n · Created efficient SQL queries to facilitate data manipulation and retrieval, ensuring optimal performance of the database.",
       "highlights": [
-        "Software Developer", "VBA", "SQL", "Microsoft Access"
+        "Database Design", "VBA Development", "SQL Query Optimization", "Data Manipulation", "Performance Enhancement"
       ]
     },
     {
@@ -148,9 +148,9 @@
       "area": "Computer Science",
       "startDate": "2011-05-01",
       "endDate": "2011-06-01",
-      "summary": "Specific project. Desktop application to manage and load data from a digital sonometer CESVA SC102.\nLanguage .NET. Built in Visual Studio 2010.",
+      "summary": "· Developed a desktop application for managing and loading data from the CESVA SC102 digital sonometer as part of a specific project.\n · Utilized .NET framework and Visual Studio 2010 for application development, ensuring efficient data handling and user interface functionality.",
       "highlights": [
-        "Software Developer", ".NET", "Visual Studio"
+        "Application Development", ".NET Framework", "Visual Studio 2010", "Data Management", "User Interface Design"
       ]
     }
   ],
@@ -158,14 +158,14 @@
     {
       "institution": "The PowerMBA",
       "url": "https://thepower.education/",
-      "area": "Business Administration and Management",
+      "area": "Business Administration",
       "type": "Master",
-      "title": "Master in Business Administration and Management (MBA)",
+      "title": "Master in Business Administration (MBA)",
       "startDate": "2022-02-01",
       "endDate": "2022-04-29",
-      "summary": "Online MBA with a focus on business management and administration. The program is designed to provide a solid foundation in business management and administration, with a focus on the latest trends and best practices in the field. The program is designed to be flexible and accessible, with a focus on practical skills and real-world applications.\nGrade: Outstanding.",
+      "summary": "Completed an online MBA focused on business management, administration, and current industry trends. The program emphasized practical skills and real-world applications, providing a strong foundation in leadership, strategy, and modern business practices.\n Grade: Outstanding.",
       "highlights": [
-        "MBA", "Business Administration", "Business Management"
+        "MBA", "Business Administration", "Leadership", "Business Strategy", "Real-World Applications"
       ]
     },
     {
@@ -176,9 +176,9 @@
       "type": "Bachelor",
       "startDate": "2017-02-01",
       "endDate": "2021-01-31",
-      "summary": "Specialisation on Software Engineering.\nFinal project: Payments Fraud Prevention (Grade A).",
+      "summary": "Specialized in Software Engineering, with a strong focus on developing secure and scalable systems. Final project on Payment Fraud Prevention received a Grade A, showcasing expertise in building robust, fraud-resistant payment solutions.",
       "highlights": [
-        "Software Engineering", "Compueter Science", "Payments Fraud Prevention"
+        "Software Engineering", "Computer Science", "Payment Fraud Prevention", "Secure Systems", "Scalable Solutions"
       ]
     },
     {
@@ -189,9 +189,9 @@
       "type": "Professional Training",
       "startDate": "2011-09-01",
       "endDate": "2014-06-01",
-      "summary": "Multiplatform applications development in many languages such as Java, Python, XML, SQL. Android applications development.\nGrade: 8.8.",
+      "summary": "Focused on the development of multiplatform applications across various languages, including Java, Python, XML, and SQL. Specialized in Android application development with a strong foundation in backend technologies. Graduated with a Grade of 8.8, demonstrating proficiency in delivering high-quality solutions across platforms.",
       "highlights": [
-        "Software Development", "Senior Technician", "Multiplatform Application Development", "Backend", "Java", "Python", "XML", "SQL", "Android"
+        "Software Development", "Multiplatform Application Development", "Backend", "Java", "Python", "XML", "SQL", "Android Development"
       ]
     },
     {
@@ -202,9 +202,9 @@
       "type": "Professional Course",
       "startDate": "2013-11-01",
       "endDate": "2014-03-01",
-      "summary": "Fundamentals of Java technology and programming (250h).",
+      "summary": "Completed a 250-hour intensive course on the fundamentals of Java technology and programming, focusing on backend development and software design principles. Gained hands-on experience in Java programming, enhancing skills in building robust and scalable applications.",
       "highlights": [
-        "Software Development", "Programmer Analyst", "Backend", "Java"
+        "Java Programming", "Software Development", "Programmer Analyst", "Backend Development", "Java Technology"
       ]
     },
     {
@@ -215,9 +215,9 @@
       "type": "Professional Course",
       "startDate": "2013-12-01",
       "endDate": "2014-02-01",
-      "summary": "Development of HTML5 applications for Firefox OS (40h).",
+      "summary": "Completed a 40-hour course focused on developing HTML5 applications specifically for Firefox OS. Gained proficiency in HTML5, CSS3, and JavaScript, mastering the fundamentals of frontend development and responsive design for modern web applications.",
       "highlights": [
-        "Software Development", "Frontend", "HTML5", "CSS3", "JavaScript"
+        "Frontend Development", "HTML5", "CSS3", "JavaScript", "Web Applications", "Responsive Design"
       ]
     },
     {
@@ -228,9 +228,9 @@
       "type": "Professional Course",
       "startDate": "2013-04-01",
       "endDate": "2013-10-01",
-      "summary": "Android: applications development (120h).",
+      "summary": "Completed a comprehensive 120-hour program focused on Android application development, with an emphasis on creating robust, scalable apps using Java. The course covered key aspects of mobile development, including user interface design, activity lifecycle management, and integration with Android APIs.",
       "highlights": [
-        "Software Development", "Apps", "Android", "Java"
+        "Mobile App Development", "Android", "Java", "App Design", "User Interface", "Android APIs"
       ]
     },
     {
@@ -241,9 +241,9 @@
       "type": "Professional Course",
       "startDate": "2013-02-01",
       "endDate": "2013-05-01",
-      "summary": "Web development basics (36h).",
+      "summary": "Completed a foundational 36-hour course in web development, focusing on the essential technologies of HTML, CSS, and JavaScript. Gained practical skills in building responsive and interactive web pages, covering topics such as layout design, styling techniques, and client-side scripting. This program provided a solid understanding of best practices in frontend development.",
       "highlights": [
-        "Software Development", "Frontend", "Web", "HTML", "CSS", "JavaScript"
+        "Web Development", "Frontend", "HTML", "CSS", "JavaScript", "Responsive Design", "Client-Side Scripting"
       ]
     },
     {
@@ -254,9 +254,9 @@
       "type": "Professional Training",
       "startDate": "2013-12-01",
       "endDate": "2014-02-01",
-      "summary": "Only first course done due to work reasons. Grade: 7.8.",
+      "summary": "Completed the first course with a grade of 7.8. Incomplete due to work commitments.",
       "highlights": [
-        "Chemistry", "Laboratory", "Chemist Analysis", "Quality Control"
+        "Laboratory Analysis", "Quality Control", "Chemistry", "Analytical Techniques"
       ]
     },
     {
@@ -269,7 +269,7 @@
       "endDate": "2003-06-01",
       "summary": "Technician on Laboratory. Grade: 8.9.",
       "highlights": [
-        "Chemistry", "Laboratory"
+        "Laboratory Techniques", "Chemistry", "Quality Assurance"
       ]
     }
   ],
@@ -334,36 +334,36 @@
       "name": "Executive",
       "level": "Master",
       "score": 100,
-      "summary": "Leadership and management wide experience. Agile Management practitioner.\nLeading and managing local and global distributed teams as a daily basis.\nStakeholders and project management.\nRelated tasks: mentoring, coaching, goal setting, resource planing, among others.",
+      "summary": "· Leadership and Management: Extensive experience in leading and managing local and global distributed teams daily. Proficient in Stakeholder and Project Management.\n · Agile Management: Practicing Agile methodologies, including mentoring, coaching, goal setting, and resource planning.\n · Management Skills: Strong leadership abilities with a focus on team development and performance enhancement.\n · Stakeholder Engagement: Expertise in fostering relationships with stakeholders to align project goals with business objectives.",
       "highlights": [
-        "Leadership", "Management"
+        "Leadership", "Agile Management", "Stakeholder Engagement", "Team Development", "Project Management"
       ]
     },
     {
       "name": "Analysis",
       "level": "Master",
       "score": 100,
-      "summary": "Big picture vision and business analysis capabilities.\nDesign and coordination of complex IT solutions.\nUse of AI & Cloud technologies to analise and evolve the deployed applications.",
+      "summary": "· Big Picture Vision: Adept at business analysis, enabling a comprehensive understanding of project requirements and objectives.\n · Complex IT Solutions: Design and coordination of intricate IT systems, leveraging AI and cloud technologies to analyze and evolve deployed applications.",
       "highlights": [
-        "Bic Picture", "Complex IT Solutions", "AI", "Cloud"
+        "Business Analysis", "Big Picture Vision", "Complex IT Solutions", "AI Integration", "Cloud Technologies"
       ]
     },
     {
       "name": "Software",
       "level": "Master",
       "score": 100,
-      "summary": "Profound knowledge of Software design patterns, best practices and standards.\nDesign and implementation of complex IT solutions mainly focused on the backend side even being capable of guiding the frontend part as well.\nEnthusiast and passionate about microservices and cloud architectures.\nProficiency in Java and Spring.",
+      "summary": "· Software Design Patterns: In-depth knowledge of design patterns, best practices, and standards to ensure high-quality software development.\n · Backend Solutions: Design and implementation of complex IT solutions, with a strong focus on backend systems while also guiding frontend development.\n · Microservices Enthusiast: Passionate about microservices and cloud architectures, emphasizing scalable and maintainable systems.\n · Technical Proficiency: High proficiency in Java and Spring frameworks.",
       "highlights": [
-        "Software Design Patterns", "Best Practices", "High Quality Standards", "Microservices", "Java", "Spring"
+        "Software Design Patterns", "Backend Development", "Microservices Architecture", "Java Proficiency", "Spring Framework"
       ]
     },
     {
       "name": "DevSecOps",
       "level": "Master",
       "score": 100,
-      "summary": "Used to work hand by hand with systems department to coordinate the deployments and build CI/CD processes. Also used to work with Docker and Kubernetes.\nExperience with Gradle, Grafana, JFrog, Jenkins, Maven, Nagios and Puppet.\nPlatform monitoring with ELK stack (Elasticsearch, Logstash, Kibana) and other tools such as OpsCenter for Cassandra, and custom scripts and reports.\nSpecialist in Google Cloud Platform.",
+      "summary": "· CI/CD Coordination: Collaborating closely with systems departments to establish CI/CD processes for efficient deployments.\n · Containerization: Experienced with Docker and Kubernetes for orchestration and container management.\n · Monitoring Tools: Proficient in tools like Gradle, Grafana, JFrog, Jenkins, Maven, Nagios, and Puppet for building, monitoring, and managing applications.\n · Platform Monitoring: Expertise in platform monitoring using the ELK stack (Elasticsearch, Logstash, Kibana) and tools such as OpsCenter for Cassandra, along with custom scripts and reports.\n · Cloud Specialist: Specialized in Google Cloud Platform for deploying and managing cloud-based applications.",
       "highlights": [
-        "CI/CD", "Docker", "Kubernetes", "Grafana", "JFrog", "Jenkins", "Maven", "ELK", "Google Cloud Platform"
+        "CI/CD Pipelines", "Containerization", "Monitoring Tools", "ELK Stack", "Google Cloud Platform"
       ]
     }
   ],
