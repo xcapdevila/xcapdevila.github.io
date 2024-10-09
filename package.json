@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.5.10",
-    "astro": "^4.3.2",
+    "astro": "^4.15.12",
     "hotkeypad": "^0.1.1",
     "typescript": "^5.4.5"
   },
