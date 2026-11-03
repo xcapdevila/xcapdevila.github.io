@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Xavier Capdevila — software architecture, engineering leadership and useful products. Selected work in distributed systems, payments and security.">
+  <title>Xavier Capdevila — Architecture, engineering &amp; product</title>
+  <link rel="canonical" href="https://xcapdevila.github.io/">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://xcapdevila.github.io/">
+  <meta property="og:title" content="Xavier Capdevila — Architecture, engineering &amp; product">
+  <meta property="og:description" content="Software architecture, engineering leadership and useful products. Selected work in distributed systems, payments and security.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Xavier Capdevila — Architecture, engineering &amp; product">
+  <meta name="twitter:description" content="Software architecture, engineering leadership and useful products. Selected work in distributed systems, payments and security.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="refinement.css">
+  <style>body{margin:0;background:#fff}</style>
+</head>
+<body>
+<div id="xavier-edition">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="hero-surface" id="top">
+    <header class="site-header wrap"><span class="masthead-square" aria-hidden="true"></span>
+      <a class="wordmark" href="#top" aria-label="Xavier Capdevila, home">Xavier Capdevila<span aria-hidden="true">.</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#experience">Experience</a><a href="#work">Work</a><a href="#about">About</a><a class="nav-contact" href="#connect">Contact <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+  </div>
+  <main id="main-content">
+    <div class="hero-surface">
+      <section class="hero wrap" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Software architecture · Engineering leadership · Product thinking</p>
+          <h1 id="hero-title"><span class="headline-sans">Reliable systems.</span><span class="headline-serif">Useful products.</span></h1>
+          <div class="intro-spread">
+          <p class="hero-intro">I'm Xavier, a software architect and senior staff engineer with experience leading engineering teams and owning payment platforms.</p>
+<div class="intro-follow">
+          <p class="hero-support">I connect architecture, hands-on engineering and product decisions to help teams build software they can operate and evolve.</p>
+          <a class="button button-orange" href="#work">Explore my work <span aria-hidden="true">↓</span></a>
+</div></div>
+        </div>
+        <aside class="hero-index" aria-label="Areas of experience">
+          <p class="index-kicker">The perspective I bring</p>
+          <div><span class="index-number">01</span><p><strong>Systems</strong><span>Payments, security and distributed platforms.</span></p></div>
+          <div><span class="index-number">02</span><p><strong>People</strong><span>Technical direction, team development and engineering leadership.</span></p></div>
+          <div><span class="index-number">03</span><p><strong>Product</strong><span>Platform ownership and independent products that people can use.</span></p></div>
+        </aside>
+      </section>
+      <div class="hero-bottom wrap"><span>Based in Barcelona</span><a href="#work">Selected work <span aria-hidden="true">↓</span></a></div>
+  </div>
+
+  <section id="experience" class="experience-section wrap" aria-labelledby="experience-title">
+    <div class="experience-intro"><p class="eyebrow"><span aria-hidden="true">01 / </span>Experience</p><h2 id="experience-title">From the code<br>to the wider decision.</h2><p>My perspective comes from working across software, teams and the platforms they build.</p></div>
+    <div class="experience-entries"><article><p class="experience-label">Current role</p><h3>Software Architect<br>· Senior Staff Engineer</h3><p>I work across architecture, implementation and delivery, weighing integration, reliability and security choices against product needs and business constraints.</p></article><article><p class="experience-label">The path here</p><h3>Engineering leadership<br>&amp; payment platform ownership</h3><p>My background includes hands-on software engineering in payments, e-commerce and telecommunications, leading development teams and owning payment platforms. Product Owner and Scrum Master responsibilities have added a perspective that runs from priorities through to delivery.</p></article><a class="text-link" href="https://www.linkedin.com/in/xcapdevila/" target="_blank" rel="noopener">Full professional background <span aria-hidden="true">↗</span></a></div>
+  </section>
+
+  <section id="work" class="work-section" aria-labelledby="work-title">
+    <div class="wrap">
+      <div class="section-heading"><p class="eyebrow"><span aria-hidden="true">02 / </span>Selected work</p><h2 id="work-title">Ideas, decisions,<br>working software.</h2><p>Three different ways I put engineering and product thinking into practice.</p></div>
+
+      <article class="case recovery-case" aria-labelledby="recovery-title">
+        <div class="case-caption">
+          <p class="case-meta"><span class="case-number">01 /</span> Resilience4j <span class="status-label">Upstream proposal</span></p>
+          <h3 id="recovery-title">Recovery should<br>have a ramp.</h3>
+        </div>
+        <div class="case-copy">
+          <p class="lead">A service can recover enough to answer a few requests before it can handle its usual traffic.</p>
+          <p>I've proposed an optional CircuitBreaker policy that brings traffic back gradually. Each phase combines a target percentage, a minimum duration and completed-call health checks. When health deteriorates, <code>STEP_BACK</code> can reduce admission to the preceding phase.</p>
+          <div class="case-links"><a class="text-link" href="https://github.com/xcapdevila/resilience4j-lab" target="_blank" rel="noopener">Run the lab <span aria-hidden="true">↗</span></a><a class="text-link" href="https://github.com/resilience4j/resilience4j/pull/2577" target="_blank" rel="noopener">Explore the contribution <span aria-hidden="true">↗</span></a></div>
+          <details class="case-detail"><summary>The decisions behind it</summary><div><p>Keep standard recovery as the default. Make gradual recovery opt-in, preserve the public <code>HALF_OPEN</code> state and expose additional recovery metrics.</p><p>The separate lab lets you trigger failures, change traffic and recovery settings, and compare standard and gradual behaviour in local Prometheus/Grafana dashboards.</p><a class="text-link" href="https://github.com/resilience4j/resilience4j/issues/2576" target="_blank" rel="noopener">Read the proposal <span aria-hidden="true">↗</span></a></div></details>
+        </div>
+        <section class="recovery-illustration" id="edition-recovery-illustration" aria-label="Gradual recovery policy illustration">
+          <div class="illustration-top"><span class="eyebrow">Policy illustration</span><span class="illustration-note">No live traffic</span></div>
+          <div class="state-path" aria-label="Public circuit states"><span data-public-state="OPEN">OPEN</span><span aria-hidden="true">→</span><span data-public-state="HALF_OPEN">HALF_OPEN</span><span aria-hidden="true">→</span><span data-public-state="CLOSED">CLOSED</span></div>
+          <div class="admission-readout"><p>Target admission<strong data-recovery-target>25%</strong></p><p>Public state<strong class="public-state" data-recovery-state>HALF_OPEN</strong></p></div>
+          <div class="admission-track" data-recovery-track style="--admission-percent:25%" aria-hidden="true"><i data-active="true"></i><i></i><i></i><i></i></div>
+          <div class="phase-selector" role="group" aria-label="Choose a recovery phase"><button type="button" data-phase="25" aria-pressed="true">25%</button><button type="button" data-phase="50" aria-pressed="false">50%</button><button type="button" data-phase="75" aria-pressed="false">75%</button><button type="button" data-phase="100" aria-pressed="false">100%</button></div>
+          <p class="phase-explanation" data-recovery-explanation aria-live="polite">A 25% admission target, with the public state still HALF_OPEN.</p>
+          <div class="illustration-actions"><button class="illustration-advance" type="button" data-recovery-action="advance">Advance healthy phase <span aria-hidden="true">→</span></button><button type="button" data-recovery-action="regress">Health deteriorates <span aria-hidden="true">↶</span></button></div>
+          <div class="illustration-footer"><span>Phases advance after configured time and health checks.</span><button type="button" data-recovery-action="reset">Reset</button></div>
+        </section>
+      </article>
+
+      <article class="case festival-case" aria-labelledby="festival-title">
+        <div class="festival-heading"><div><p class="case-meta"><span class="case-number">02 /</span> Programes de Festa Major</p><h3 id="festival-title">Local festivals.<br>More to discover.</h3></div><p class="festival-deck">An independent product that turns official festival programmes into a searchable agenda across municipalities.</p></div>
+        <figure class="festival-preview"><a href="https://programesfestamajor.cat/" target="_blank" rel="noopener" aria-label="Explore Programes de Festa Major"><div class="festival-crop"><img width="1440" height="1000" src="assets/festival-landing.jpg" alt="The Programes de Festa Major home page, introducing local festivals and activities" loading="lazy"></div></a><figcaption><span>Programes de Festa Major · Live product</span><span>Independent project · Private source</span></figcaption></figure>
+        <div class="festival-story"><div><p class="small-label">The problem</p><p>Programmes are spread across places and documents. Finding the activities that fit your plans takes more work than it should.</p></div><div><p class="small-label">The product decision</p><p>Bring discovery into one agenda. Let people filter activities, explore concerts and build their own programme without creating an account.</p></div><div class="festival-action"><a class="button button-dark" href="https://programesfestamajor.cat/" target="_blank" rel="noopener">Visit the project <span aria-hidden="true">↗</span></a><p>Product thinking, information design and software engineering around an everyday need.</p></div></div>
+      </article>
+    </div>
+
+    <article class="openssl-case" aria-labelledby="openssl-title">
+      <div class="wrap openssl-grid"><div class="openssl-copy"><p class="case-meta"><span class="case-number">03 /</span> OpenSSL-FIPS</p><h3 id="openssl-title">A small tool.<br>A precise job.</h3><p class="lead">Run OpenSSL with its FIPS provider, with the build choices made explicit.</p><p>Runtime and provider versions are independently configurable. Source downloads are verified, and automated checks exercise the resulting installation and random generation.</p><a class="text-link" href="https://github.com/xcapdevila/openssl-fips" target="_blank" rel="noopener">Source & usage <span aria-hidden="true">↗</span></a></div><div class="terminal-wrap"><div class="terminal"><div class="terminal-top"><span>Run the public container</span><button type="button" data-copy-command aria-label="Copy the OpenSSL container command">Copy <span aria-hidden="true">⧉</span></button></div><pre><code data-container-command>docker run --rm ghcr.io/xcapdevila/openssl-fips \
+  "openssl rand -provider fips -base64 32"</code></pre><div class="terminal-foot"><span>Linux AMD64 + ARM64</span><span>Public image</span></div><p class="copy-feedback" data-copy-feedback role="status" aria-live="polite"></p></div><p class="precision-note">Using a FIPS provider does not by itself establish a validated deployment. The project documents that distinction.</p></div></div>
+    </article>
+  </section>
+
+  <section id="perspective" class="perspective-section wrap" aria-labelledby="perspective-title">
+    <div class="section-heading"><p class="eyebrow"><span aria-hidden="true">03 / </span>Perspective</p><h2 id="perspective-title">The system.<br>The team.<br>The reason behind it.</h2><p>Architecture reaches beyond a diagram. It shapes how software is delivered, operated and changed—and how people work together.</p></div>
+    <div class="principles"><div><span class="principle-index">01</span><h3>Make the tradeoffs explicit.</h3><p>Understand the constraints, explain the alternatives and connect technical choices with product needs and business consequences.</p></div><div><span class="principle-index">02</span><h3>Design for life in production.</h3><p>Failure behaviour, observability, security and maintainability belong in the decisions made while building a system.</p></div><div><span class="principle-index">03</span><h3>Help teams develop judgement.</h3><p>Technical direction, engineering practices and shared understanding help people make decisions and carry them through.</p></div></div>
+  </section>
+
+  <section id="about" class="about-section" aria-labelledby="about-title"><div class="wrap about-grid"><div><p class="eyebrow"><span aria-hidden="true">04 / </span>About</p><h2 id="about-title">An architect.<br>Still an engineer.</h2><p class="about-aside">I like building things, understanding the business behind them, and helping people grow.</p></div><div class="about-copy"><p>I'm interested in practical uses of AI, business development and entrepreneurship. Personal projects like Programes de Festa Major are a way to explore those interests through a real product. I'd also like to mentor engineers, sharing experience and helping them develop their own judgement.</p><p class="background-note">Computer Engineering at UOC · thePowerMBA programme</p><div class="outside-code"><span class="small-label">Away from the keyboard</span><p>Trail running, cycling, hiking, skiing, music and travel.</p></div></div></div></section>
+
+  <section id="connect" class="connect-section wrap" aria-labelledby="connect-title"><p class="eyebrow"><span aria-hidden="true">05 / </span>Contact</p><div class="connect-grid"><h2 id="connect-title">Get in touch<span aria-hidden="true">.</span></h2><div><p>Architecture, engineering leadership, payments—or a product idea taking shape.</p><a class="button button-dark" href="https://www.linkedin.com/in/xcapdevila/" target="_blank" rel="noopener">Message me on LinkedIn <span aria-hidden="true">↗</span></a><a class="text-link github-link" href="https://github.com/xcapdevila" target="_blank" rel="noopener">Find me on GitHub <span aria-hidden="true">↗</span></a></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="wrap"><span>© 2026 Xavier Capdevila</span><span>Barcelona</span><a href="#top">Back to top <span aria-hidden="true">↑</span></a></div></footer>
+</div>
+<script src="recovery.js"></script>
+<script src="site.js"></script>
+</body>
+</html>
