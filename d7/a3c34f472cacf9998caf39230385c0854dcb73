@@ -1,0 +1,35 @@
+README.md
+  s_1a854ecdbb9cd2::t_9a6f3904c2c9e8 1,3,5,7,9,11-13,15,17,19-24,26,28,30,32,34-37,39,41,43,45
+favicon.svg
+  s_1a854ecdbb9cd2::t_bcdea8393b7c77 1
+index.html
+  s_1a854ecdbb9cd2::t_48382a1c105ebe 1-115
+recovery.js
+  s_1a854ecdbb9cd2::t_9a5a113510ba5b 1-107
+refinement.css
+  s_1a854ecdbb9cd2::t_4beff5293ca0ab 1-2
+robots.txt
+  s_1a854ecdbb9cd2::t_4642df4fe100c6 1-4
+site.js
+  s_1a854ecdbb9cd2::t_0a631d38a6dbf8 1-26
+sitemap.xml
+  s_1a854ecdbb9cd2::t_806d3eb893828b 1-2
+styles.css
+  s_1a854ecdbb9cd2::t_ffdea597c6066f 1-283
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "d7a3c34f472cacf9998caf39230385c0854dcb73",
+  "prompts": {},
+  "sessions": {
+    "s_1a854ecdbb9cd2": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a17943-4948-7ca1-b30a-d28353a85b85",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Xavier Capdevila <17270296+xcapdevila@users.noreply.github.com>"
+    }
+  }
+}
