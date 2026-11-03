@@ -1,79 +1,45 @@
-<div align="center">
+# Xavier Capdevila — personal website
 
-<img src="./resources/logo.jpg" height="90px" width="auto" /> 
+[Visit the website](https://xcapdevila.github.io/)
 
-<h2>
-    Minimalist <em>Résumé</em> optimised for web and pdf.
-</h2>
+A personal website about software architecture, engineering leadership and product thinking, with selected projects and an interactive illustration of gradual circuit-breaker recovery.
 
-<p>
-Based on the <a href="https://github.com/midudev/minimalist-portfolio-json">Miguel Ángel Durán</a> template.
-</p>
+## Local preview
 
-<p>
-Basado on the <a href="https://github.com/BartoszJarocki/cv">Bartosz Jarocki</a> design.
-</p>
+No dependency installation or build step is needed. From the repository root:
 
-<p>
-CV structure based on <a href="https://jsonresume.org/schema/">jsonresume.org</a>. (*) <em>Some modifications have been made, please check [cv.json](resources/cv.json).</em>
-</p>
+```sh
+python3 -m http.server 4321 --bind 127.0.0.1
+```
 
-</div>
+Open [http://127.0.0.1:4321](http://127.0.0.1:4321) in your browser. Stop the server with `Ctrl+C`.
 
-<div align="center">
-    <a href="#-start">
-        Start
-    </a>
-    <span>&nbsp;✦&nbsp;</span>
-    <a href="#️-stack">
-        Stack
-    </a>
-    <span>&nbsp;✦&nbsp;</span>
-    <a href="#-commands">
-        Commands
-    </a>
-    <span>&nbsp;✦&nbsp;</span>
-    <a href="#-license">
-        License
-    </a> 
-</div>
+## Editing
 
-<p></p>
+- `index.html`: content, links and metadata.
+- `styles.css`: the Edition visual design and responsive layouts.
+- `refinement.css`: framing of the Programes de Festa Major landing-page screenshot.
+- `recovery.js`: the recovery policy illustration; it does not generate real traffic.
+- `site.js`: the container-command copy control.
+- `assets/festival-landing.jpg`: the product landing-page screenshot.
 
-<img src="./resources/screenshot.jpg"></img>
+The website uses system fonts and has no third-party runtime scripts, analytics or external font requests.
 
-## 🚀 Start
+## Publication
 
-### How to Use This Project
+GitHub Pages serves the root of the `gh-pages` branch, with `.nojekyll` disabling Jekyll processing. Merging a change into that branch triggers the standard Pages deployment. There is no custom build workflow or generated publication branch.
 
-This project is designed to be simple and easy to use. All you need to do is fill the `cv.json` file with your data. 
+Before publication, check JavaScript syntax:
 
-The `cv.json` file is where you'll input all of your CV information. This includes your name, contact information, skills, work experience, education, and any other relevant details. The file is structured in a way that makes it easy to input your information. 
+```sh
+node --check recovery.js
+node --check site.js
+```
 
-Once you've filled out the `cv.json` file, the project will automatically generate a CV based on the data you've provided. This makes it easy to keep your CV up to date and ensures that the format is consistent and professional.
+Also review the local page at desktop and mobile widths, the internal navigation, project links, recovery controls and command copying. The illustration deliberately keeps `HALF_OPEN` at the 100% target until the final healthy phase is advanced.
 
-To get started, simply clone the project, open the `cv.json` file, and start inputting your information. Once you're done, save the file and the project will take care of the rest.
+## License and history
 
-### Utils
+The existing [license notice](LICENSE) is preserved.
 
-🎨 [Skills Icons](https://icon-sets.iconify.design/foundation/?license=MIT)
-
-## 🛠️ Stack
-
-- [**Astro**](https://astro.build/)
-- [**Typescript**](https://www.typescriptlang.org/)
-- [**Ninja Keys**](https://github.com/ssleptsov/ninja-keys) - Keyboard shortcuts interface for your website. Working with static HTML, Vanilla JS, Vue, React, Svelte.
-
-## 🧞 Commands
-
-|     | Command          | Notes                                        |
-| :-- | :--------------- | :-------------------------------------------- |
-| ⚙️  | `dev` o `start` | Starts a local webserver on `localhost:4321`.  |
-| ⚙️  | `build`          | Checks errors and makes a production build of the project under `./dist/`.      |
-| ⚙️  | `preview`        | Preview on `localhost:4321` |
-
-Open [**http://localhost:4321**](http://localhost:4321/) in your browser to check it out 🕵🏻.
-
-## 🔑 License
-
-[MIT](LICENSE.txt) - Created by [**xcapdevila**](https://xcapdevila.github.io/) 2024.
+The previous résumé implementation was based on [Miguel Ángel Durán’s minimalist portfolio](https://github.com/midudev/minimalist-portfolio-json), [Bartosz Jarocki’s CV design](https://github.com/BartoszJarocki/cv) and the [JSON Resume schema](https://jsonresume.org/schema/). That implementation and its attribution remain in the repository history; Edition replaces its application code and assets.
