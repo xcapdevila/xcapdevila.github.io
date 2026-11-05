@@ -2,7 +2,7 @@
 
 [Visit the website](https://xcapdevila.github.io/)
 
-A personal website about software architecture, engineering leadership and product thinking, with selected projects and an interactive illustration of gradual circuit-breaker recovery.
+A personal website about architecture, engineering and business: from real problems to working software. Includes selected projects and an interactive illustration of gradual circuit-breaker recovery.
 
 ## Local preview
 
@@ -18,10 +18,11 @@ Open [http://127.0.0.1:4321](http://127.0.0.1:4321) in your browser. Stop the se
 
 - `index.html`: content, links and metadata.
 - `styles.css`: the Edition visual design and responsive layouts.
-- `refinement.css`: screenshot framing and navigation on narrow screens.
+- `refinement.css`: left-aligned brand hero, gray construction grid, screenshot framing and navigation on narrow screens.
 - `recovery.js`: the recovery policy illustration; it does not generate real traffic.
 - `site.js`: the container-command copy control.
 - `assets/festival-landing.jpg`: the product landing-page screenshot.
+- `assets/personal-website-social.png` and `.svg`: the project thumbnail and editable social preview artwork.
 
 The website uses system fonts and has no third-party runtime scripts, analytics or external font requests.
 

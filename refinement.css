@@ -6,3 +6,83 @@
 @media(max-width:380px){
   #xavier-edition .site-header nav{display:grid;grid-template-columns:repeat(3,max-content);justify-content:space-between;gap:4px 10px}
 }
+
+/* Shared brand: unified type, a quiet construction grid and a red highlight. */
+#xavier-edition .hero .hero-brand{
+  --brand-red:#d9071f;
+  --brand-grid:#e8e8e8;
+  padding:25px 0 23px;
+  margin-bottom:26px;
+  background-image:linear-gradient(var(--brand-grid) 1px,transparent 1px),linear-gradient(90deg,var(--brand-grid) 1px,transparent 1px);
+  background-size:40px 40px;
+  background-position:left top;
+}
+#xavier-edition .hero #hero-title{
+  display:grid;
+  grid-template-columns:minmax(0,1fr);
+  justify-items:start;
+  row-gap:0;
+  margin:0 0 24px;
+  padding:0;
+  border:0;
+  font-family:var(--sans);
+  font-size:clamp(56px,8vw,112px);
+  line-height:.98;
+  letter-spacing:-.055em;
+  font-weight:800;
+  text-align:left;
+}
+#xavier-edition .hero .headline-word{
+  display:block;
+  position:relative;
+  width:max-content;
+  max-width:100%;
+  font-family:inherit;
+  font-size:inherit;
+  font-weight:inherit;
+  font-style:normal;
+  white-space:nowrap;
+  color:var(--ink);
+}
+#xavier-edition .hero .headline-engineering{
+  isolation:isolate;
+  color:#fff;
+}
+#xavier-edition .hero .headline-engineering::before{
+  content:"";
+  position:absolute;
+  z-index:-1;
+  inset:.06em -.055em .015em;
+  background:var(--brand-red);
+}
+#xavier-edition .hero .hero-tagline{
+  margin:0;
+  padding-top:13px;
+  border-top:2px solid var(--ink);
+  color:var(--brand-red);
+  font-family:var(--sans);
+  font-size:clamp(20px,2.7vw,36px);
+  font-weight:700;
+  line-height:1.25;
+  letter-spacing:-.025em;
+  text-align:left;
+}
+#xavier-edition .hero .intro-spread{border-top:0;padding-top:0}
+@media(max-width:760px){
+  #xavier-edition .hero .hero-brand{
+    padding:17px 0 18px;
+    margin-bottom:23px;
+    background-size:28px 28px;
+  }
+  #xavier-edition .hero #hero-title{
+    margin-bottom:19px;
+    font-size:clamp(42px,10.9vw,80px);
+    line-height:.99;
+    letter-spacing:-.05em;
+  }
+  #xavier-edition .hero .hero-tagline{
+    padding-top:10px;
+    font-size:clamp(20px,4vw,27px);
+    line-height:1.3;
+  }
+}
