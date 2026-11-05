@@ -1,45 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
 <title id="title">Xavier Capdevila — Personal website</title>
-<desc id="desc">Architecture. Engineering. Business. From real problems to working software. Left-aligned typography on a subtle gray grid, with Engineering in white on a red rectangle.</desc>
+<desc id="desc">Architecture. Engineering. Business. From real problems to working software. Left-aligned typography on a white background, with Engineering in white on a red rectangle.</desc>
 <rect width="1200" height="630" fill="#ffffff"/>
-<rect x="24" y="0" width="0.65" height="630" fill="#ededed"/>
-<rect x="72" y="0" width="0.65" height="630" fill="#ededed"/>
-<rect x="120" y="0" width="0.65" height="630" fill="#ededed"/>
-<rect x="168" y="0" width="0.65" height="630" fill="#ededed"/>
-<rect x="216" y="0" width="0.65" height="630" fill="#ededed"/>
-<rect x="264" y="0" width="0.65" height="630" fill="#ededed"/>
-<rect x="312" y="0" width="0.65" height="630" fill="#ededed"/>
-<rect x="360" y="0" width="0.65" height="630" fill="#ededed"/>
-<rect x="408" y="0" width="0.65" height="630" fill="#ededed"/>
-<rect x="456" y="0" width="0.65" height="630" fill="#ededed"/>
-<rect x="504" y="0" width="0.65" height="630" fill="#ededed"/>
-<rect x="552" y="0" width="0.65" height="630" fill="#ededed"/>
-<rect x="600" y="0" width="0.65" height="630" fill="#ededed"/>
-<rect x="648" y="0" width="0.65" height="630" fill="#ededed"/>
-<rect x="696" y="0" width="0.65" height="630" fill="#ededed"/>
-<rect x="744" y="0" width="0.65" height="630" fill="#ededed"/>
-<rect x="792" y="0" width="0.65" height="630" fill="#ededed"/>
-<rect x="840" y="0" width="0.65" height="630" fill="#ededed"/>
-<rect x="888" y="0" width="0.65" height="630" fill="#ededed"/>
-<rect x="936" y="0" width="0.65" height="630" fill="#ededed"/>
-<rect x="984" y="0" width="0.65" height="630" fill="#ededed"/>
-<rect x="1032" y="0" width="0.65" height="630" fill="#ededed"/>
-<rect x="1080" y="0" width="0.65" height="630" fill="#ededed"/>
-<rect x="1128" y="0" width="0.65" height="630" fill="#ededed"/>
-<rect x="1176" y="0" width="0.65" height="630" fill="#ededed"/>
-<rect x="0" y="6" width="1200" height="0.65" fill="#ededed"/>
-<rect x="0" y="54" width="1200" height="0.65" fill="#ededed"/>
-<rect x="0" y="102" width="1200" height="0.65" fill="#ededed"/>
-<rect x="0" y="150" width="1200" height="0.65" fill="#ededed"/>
-<rect x="0" y="198" width="1200" height="0.65" fill="#ededed"/>
-<rect x="0" y="246" width="1200" height="0.65" fill="#ededed"/>
-<rect x="0" y="294" width="1200" height="0.65" fill="#ededed"/>
-<rect x="0" y="342" width="1200" height="0.65" fill="#ededed"/>
-<rect x="0" y="390" width="1200" height="0.65" fill="#ededed"/>
-<rect x="0" y="438" width="1200" height="0.65" fill="#ededed"/>
-<rect x="0" y="486" width="1200" height="0.65" fill="#ededed"/>
-<rect x="0" y="534" width="1200" height="0.65" fill="#ededed"/>
-<rect x="0" y="582" width="1200" height="0.65" fill="#ededed"/>
 <text x="72" y="79" fill="#111111" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" font-style="normal" letter-spacing="-0.7">Xavier Capdevila.</text>
 <text x="941" y="77" fill="#111111" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" font-style="normal" letter-spacing="0.3">PERSONAL WEBSITE</text>
 <rect x="72" y="109" width="1056" height="1" fill="#111111"/>

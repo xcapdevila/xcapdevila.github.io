@@ -7,15 +7,11 @@
   #xavier-edition .site-header nav{display:grid;grid-template-columns:repeat(3,max-content);justify-content:space-between;gap:4px 10px}
 }
 
-/* Shared brand: unified type, a quiet construction grid and a red highlight. */
+/* Shared brand: unified type, a white background and a red highlight. */
 #xavier-edition .hero .hero-brand{
   --brand-red:#d9071f;
-  --brand-grid:#e8e8e8;
   padding:25px 0 23px;
   margin-bottom:26px;
-  background-image:linear-gradient(var(--brand-grid) 1px,transparent 1px),linear-gradient(90deg,var(--brand-grid) 1px,transparent 1px);
-  background-size:40px 40px;
-  background-position:left top;
 }
 #xavier-edition .hero #hero-title{
   display:grid;
@@ -72,7 +68,6 @@
   #xavier-edition .hero .hero-brand{
     padding:17px 0 18px;
     margin-bottom:23px;
-    background-size:28px 28px;
   }
   #xavier-edition .hero #hero-title{
     margin-bottom:19px;

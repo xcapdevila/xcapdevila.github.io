@@ -18,7 +18,7 @@ Open [http://127.0.0.1:4321](http://127.0.0.1:4321) in your browser. Stop the se
 
 - `index.html`: content, links and metadata.
 - `styles.css`: the Edition visual design and responsive layouts.
-- `refinement.css`: left-aligned brand hero, gray construction grid, screenshot framing and navigation on narrow screens.
+- `refinement.css`: left-aligned brand hero on white, screenshot framing and navigation on narrow screens.
 - `recovery.js`: the recovery policy illustration; it does not generate real traffic.
 - `site.js`: the container-command copy control.
 - `assets/festival-landing.jpg`: the product landing-page screenshot.
