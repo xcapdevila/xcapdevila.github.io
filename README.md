@@ -26,6 +26,10 @@ Open [http://127.0.0.1:4321](http://127.0.0.1:4321) in your browser. Stop the se
 
 The website uses system fonts and has no third-party runtime scripts, analytics or external font requests.
 
+## Media
+
+[Browse the final banners and social preview artwork](media/README.md), including the LinkedIn banner, the left-aligned website artwork and the editable thumbnail source.
+
 ## Publication
 
 GitHub Pages serves the root of the `gh-pages` branch, with `.nojekyll` disabling Jekyll processing. Merging a change into that branch triggers the standard Pages deployment. There is no custom build workflow or generated publication branch.
