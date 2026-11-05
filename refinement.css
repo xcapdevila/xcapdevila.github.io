@@ -8,10 +8,28 @@
 }
 
 /* Shared brand: unified type, a white background and a red highlight. */
+#xavier-edition .hero .hero-copy{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) clamp(220px,20vw,260px);
+  column-gap:clamp(40px,5vw,80px);
+}
 #xavier-edition .hero .hero-brand{
   --brand-red:#d9071f;
+  grid-column:1;
+  grid-row:1;
+  min-width:0;
   padding:25px 0 23px;
   margin-bottom:26px;
+}
+#xavier-edition .hero .hero-portrait{
+  display:block;
+  grid-column:2;
+  grid-row:1;
+  align-self:center;
+  width:100%;
+  height:auto;
+  aspect-ratio:1;
+  object-fit:cover;
 }
 #xavier-edition .hero #hero-title{
   display:grid;
@@ -63,8 +81,16 @@
   letter-spacing:-.025em;
   text-align:left;
 }
-#xavier-edition .hero .intro-spread{border-top:0;padding-top:0}
+#xavier-edition .hero .intro-spread{grid-column:1/-1;border-top:0;padding-top:0}
 @media(max-width:760px){
+  #xavier-edition .hero .hero-copy{display:block}
+  #xavier-edition .hero .hero-portrait{
+    float:right;
+    width:clamp(80px,22vw,110px);
+    margin:0 0 12px 18px;
+  }
+  #xavier-edition .hero .intro-spread{display:block}
+  #xavier-edition .hero .intro-follow{clear:both;margin-top:17px}
   #xavier-edition .hero .hero-brand{
     padding:17px 0 18px;
     margin-bottom:23px;
