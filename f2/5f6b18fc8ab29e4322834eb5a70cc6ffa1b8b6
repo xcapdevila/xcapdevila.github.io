@@ -1,0 +1,19 @@
+assets/personal-website-social.svg
+  s_1a854ecdbb9cd2::t_0441eae6c0e094 3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "f25f6b18fc8ab29e4322834eb5a70cc6ffa1b8b6",
+  "prompts": {},
+  "sessions": {
+    "s_1a854ecdbb9cd2": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a17943-4948-7ca1-b30a-d28353a85b85",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Xavier Capdevila <17270296+xcapdevila@users.noreply.github.com>"
+    }
+  }
+}
