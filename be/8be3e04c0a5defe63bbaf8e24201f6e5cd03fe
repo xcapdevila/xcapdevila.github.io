@@ -1,0 +1,16 @@
+README.md
+  h_8517979ba9c4c0 29-32
+media/README.md
+  h_8517979ba9c4c0 1-30
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "be8be3e04c0a5defe63bbaf8e24201f6e5cd03fe",
+  "prompts": {},
+  "humans": {
+    "h_8517979ba9c4c0": {
+      "author": "Xavier Capdevila <17270296+xcapdevila@users.noreply.github.com>"
+    }
+  }
+}
