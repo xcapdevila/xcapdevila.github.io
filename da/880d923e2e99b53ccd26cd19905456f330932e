@@ -1,0 +1,21 @@
+index.html
+  s_db07a0e204549d::t_02c2ce14bf2020 25,47
+refinement.css
+  s_db07a0e204549d::t_c6afef7b676cc3 11-15,18-20,24-33,84,86-93
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "da880d923e2e99b53ccd26cd19905456f330932e",
+  "prompts": {},
+  "sessions": {
+    "s_db07a0e204549d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "68857f63-59ec-43e8-beca-45b5feee03ae",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Xavier Capdevila <17270296+xcapdevila@users.noreply.github.com>"
+    }
+  }
+}
