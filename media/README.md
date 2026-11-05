@@ -4,7 +4,7 @@ Final personal branding assets for the website, LinkedIn and project previews.
 
 | Asset | Dimensions | Design |
 | --- | --- | --- |
-| [LinkedIn banner](linkedin-banner-right.png) | 2172 × 724 PNG | Right-aligned words, gray grid and red Engineering highlight. |
+| [LinkedIn banner](linkedin-banner-right.png) | 1584 × 396 PNG · 4:1 | Right-aligned words, gray grid and red Engineering highlight. Ready to upload. |
 | [Website brand artwork](website-banner-left.png) | 2172 × 724 PNG | Left-aligned words on white, without a grid. |
 | [Website and project thumbnail](../assets/personal-website-social.png) | 1200 × 630 PNG | Left-aligned brand on white, with name and website address. |
 | [Editable thumbnail source](../assets/personal-website-social.svg) | 1200 × 630 SVG | Editable typography and shapes for the social preview. |
@@ -13,7 +13,7 @@ Final personal branding assets for the website, LinkedIn and project previews.
 
 ![Right-aligned LinkedIn banner with a gray grid](linkedin-banner-right.png)
 
-This is the original wide artwork. The design was reviewed with a centered 4:1 crop; adjust the crop in the banner editor when uploading it.
+Exported at the [recommended LinkedIn profile cover dimensions](https://www.linkedin.com/help/linkedin/answer/a549049): 1584 × 396 pixels, with a 4:1 aspect ratio. The full headline and supporting sentence fit inside this canvas, with space on the left for the profile photo.
 
 ## Website brand artwork
 
