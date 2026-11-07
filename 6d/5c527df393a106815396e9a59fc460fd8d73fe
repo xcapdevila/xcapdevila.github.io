@@ -1,0 +1,19 @@
+media/README.md
+  s_1a854ecdbb9cd2::t_d86bb34e2714e4 18-19
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "6d5c527df393a106815396e9a59fc460fd8d73fe",
+  "prompts": {},
+  "sessions": {
+    "s_1a854ecdbb9cd2": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a17943-4948-7ca1-b30a-d28353a85b85",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Xavier Capdevila <17270296+xcapdevila@users.noreply.github.com>"
+    }
+  }
+}
