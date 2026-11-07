@@ -15,6 +15,8 @@ Final personal branding assets for the website, LinkedIn and project previews.
 
 Exported at the [recommended LinkedIn profile cover dimensions](https://www.linkedin.com/help/linkedin/answer/a549049): 1584 × 396 pixels, with a 4:1 aspect ratio. The full headline and supporting sentence fit inside this canvas, with space on the left for the profile photo.
 
+The supporting sentence is smaller and starts farther to the right to leave more clearance beside the profile photo on mobile.
+
 ## Website brand artwork
 
 ![Left-aligned website brand artwork on white](website-banner-left.png)
